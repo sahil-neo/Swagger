@@ -3,9 +3,6 @@ info:
   version: '1.0'
   title: FlightManager
   description: 'TODO: Add Description'
-  license:
-    name: MIT
-    url: http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT
 host: euw1-partner02-test.apigee.net
 basePath: /
 securityDefinitions:
