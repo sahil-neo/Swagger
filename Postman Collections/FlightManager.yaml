@@ -38,7 +38,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/GetCartResponse'
+            $ref: '#/definitions/GetCart'
           examples:
             application/json:
               session_id: 08:14:27
@@ -122,7 +122,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/GetCategoriesResponse'
+            $ref: '#/definitions/GetCategories'
           examples:
             application/json:
               items:
@@ -246,7 +246,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/GetProductsResponse'
+            $ref: '#/definitions/GetProducts'
           examples:
             application/json:
               skusList:
@@ -412,7 +412,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/UpdateCartResponse'
+            $ref: '#/definitions/UpdateCart'
           examples:
             application/json:
               session_id: ddsd-ssd-sd-sds
@@ -479,7 +479,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/AddCartItemsResponse'
+            $ref: '#/definitions/AddCartItems'
           examples:
             application/json:
               session_id: 20:13:08
@@ -551,7 +551,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/CreateCartResponse'
+            $ref: '#/definitions/CreateCart'
           examples:
             application/json:
               session_id: abc
@@ -667,7 +667,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/GetOrderResponse'
+            $ref: '#/definitions/GetOrder'
           examples:
             application/json:
               uuid: a7a52a4b-2fd8-11e7-990c-0eec2415f3df
@@ -740,7 +740,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/GetOrdersResponse'
+            $ref: '#/definitions/GetOrders'
           examples:
             application/json:
               items:
@@ -901,7 +901,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/PostOrdersResponse'
+            $ref: '#/definitions/PostOrders'
           examples:
             application/json:
               uuid: 97044c87-06a2-11e8-a68e-0eec2415f3df
@@ -980,7 +980,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/GetFlightManagementResponse'
+            $ref: '#/definitions/GetFlightManagement'
           examples:
             application/json:
               GetFlightInfoResponse:
@@ -3147,7 +3147,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/GetProductResponse'
+            $ref: '#/definitions/GetProduct'
           examples:
             application/json:
               id: 129575
@@ -3236,7 +3236,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/FlightInfoResponse'
+            $ref: '#/definitions/FlightInfo'
           examples:
             application/json:
               Envelope:
@@ -3413,7 +3413,7 @@ paths:
         200:
           description: ''
           schema:
-            $ref: '#/definitions/FlightMonitorTokenResponse'
+            $ref: '#/definitions/FlightMonitorToken'
           examples:
             application/json:
               access_token: YWMt-fsQXAajEei0UTHb-oci8QAAAWFxGjK9EpPz4PhkZnp2uemdw6KF5eoOQLI
@@ -3493,8 +3493,8 @@ paths:
         AllowDynamicFormParameters: false
         IsMultiContentStreaming: false
 definitions:
-  GetCartResponse:
-    title: GetCartResponse
+  GetCart:
+    title: GetCart
     example:
       session_id: 08:14:27
       cart_items:
@@ -3765,8 +3765,8 @@ definitions:
     required:
     - contains
     - isinstanceof
-  GetCategoriesResponse:
-    title: GetCategoriesResponse
+  GetCategories:
+    title: GetCategories
     example:
       items:
       - uuid: 59986c6a-ff74-11e7-982c-0ab8741a129c
@@ -3960,8 +3960,8 @@ definitions:
     - color
     - created
     - modified
-  GetProductsResponse:
-    title: GetProductsResponse
+  GetProducts:
+    title: GetProducts
     example:
       skusList:
       - name: Turkish Ribbed Bath Towels, 100% Cotton
@@ -4343,8 +4343,8 @@ definitions:
     required:
     - quantity
     - sku_id
-  UpdateCartResponse:
-    title: UpdateCartResponse
+  UpdateCart:
+    title: UpdateCart
     example:
       session_id: ddsd-ssd-sd-sds
       cart_items:
@@ -4424,8 +4424,8 @@ definitions:
     required:
     - sku_id
     - quantity
-  AddCartItemsResponse:
-    title: AddCartItemsResponse
+  AddCartItems:
+    title: AddCartItems
     example:
       session_id: 20:13:08
       cart_items:
@@ -4506,8 +4506,8 @@ definitions:
     required:
     - session_id
     - cart_items
-  CreateCartResponse:
-    title: CreateCartResponse
+  CreateCart:
+    title: CreateCart
     example:
       session_id: abc
       cart_items:
@@ -4550,8 +4550,8 @@ definitions:
     - created_at
     - updated_at
     - cart_id
-  GetOrderResponse:
-    title: GetOrderResponse
+  GetOrder:
+    title: GetOrder
     example:
       uuid: a7a52a4b-2fd8-11e7-990c-0eec2415f3df
       type: order
@@ -4704,8 +4704,8 @@ definitions:
     required:
     - path
     - size
-  GetOrdersResponse:
-    title: GetOrdersResponse
+  GetOrders:
+    title: GetOrders
     example:
       items:
       - uuid: 427c33d3-06a0-11e8-a68e-0eec2415f3df
@@ -5075,8 +5075,8 @@ definitions:
     - phone_number
     - state
     - email
-  GetFlightManagementResponse:
-    title: GetFlightManagementResponse
+  GetFlightManagement:
+    title: GetFlightManagement
     example:
       GetFlightInfoResponse:
         flightsInfo:
@@ -14314,8 +14314,8 @@ definitions:
     - YBAC
     - YBOB
     - YFBG
-  GetProductResponse:
-    title: GetProductResponse
+  GetProduct:
+    title: GetProduct
     example:
       id: 129575
       name: Turkish Ribbed Bath Towels, 100% Cotton
@@ -14542,8 +14542,8 @@ definitions:
     - created_date
     - expiry_date
     - product_url
-  FlightInfoResponse:
-    title: FlightInfoResponse
+  FlightInfo:
+    title: FlightInfo
     example:
       Envelope:
         Body:
@@ -15184,11 +15184,11 @@ definitions:
     type: object
     properties:
       FlightInfoResponse:
-        $ref: '#/definitions/FlightInfoResponse40'
+        $ref: '#/definitions/FlightInfoResponse'
     required:
     - FlightInfoResponse
-  FlightInfoResponse40:
-    title: FlightInfoResponse40
+  FlightInfoResponse:
+    title: FlightInfoResponse
     example:
       flight:
         URNO: 1644859001
@@ -16097,8 +16097,8 @@ definitions:
     - cart_id
     - order_date
     - total_amount
-  PostOrdersResponse:
-    title: PostOrdersResponse
+  PostOrders:
+    title: PostOrders
     example:
       uuid: 97044c87-06a2-11e8-a68e-0eec2415f3df
       type: order
@@ -16165,8 +16165,8 @@ definitions:
     - grant_type
     - client_id
     - client_secret
-  FlightMonitorTokenResponse:
-    title: FlightMonitorTokenResponse
+  FlightMonitorToken:
+    title: FlightMonitorToken
     example:
       access_token: YWMt-fsQXAajEei0UTHb-oci8QAAAWFxGjK9EpPz4PhkZnp2uemdw6KF5eoOQLI
       expires_in: 604800
