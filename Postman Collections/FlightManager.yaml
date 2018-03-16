@@ -430,7 +430,7 @@ paths:
           headers:
             Content-Type: application/json
             Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
-          body: "{  \r\n    \"cart_details\":{\r\n    	\"session_id\":\"ddsd-ssd-sd-sds\",\r\n    	\"cart_items\": [{\r\n            \"quantity\":\"3\",\r\n            \"sku_id\":\"S1368433309753\"\r\n          }\r\n		]\r\n	}\r\n}"
+          body: '{"cart_details":{"session_id":"ddsd-ssd-sd-sds","cart_items":[{"quantity":"3","sku_id":"S1368433309753"}]}}'
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -497,7 +497,7 @@ paths:
           headers:
             Content-Type: application/json
             Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
-          body: "{\r\n\"cart_items\":[\r\n                       {\r\n                         \"sku_id\": \"S40330686\",\r\n                          \"quantity\": 1\r\n                       }\r\n                      ]\r\n}    "
+          body: '{"cart_items":[{"sku_id":"S40330686","quantity":1}]}'
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -569,7 +569,7 @@ paths:
           headers:
             Content-Type: application/json
             Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
-          body: '{"cart_details": {"session_id": "abc", "cart_items": [{"quantity": 1, "sku_id": "S40330686"}] }}'
+          body: '{"cart_details":{"session_id":"abc","cart_items":[{"quantity":1,"sku_id":"S40330686"}]}}'
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -920,7 +920,7 @@ paths:
           headers:
             Content-Type: application/json
             Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
-          body: '{"type": "order",  "name": "test11",	"username":"",  "bill_to": {"zip": "420420",    "country": "australia",    "address2": "street2",    "city": "bangalore",    "address1": "green glen layout",    "locality": "bellandur",    "name": "home", "phone_number": "9876563542",    "state": "karnataka",    "email": "420@420.420"  },  "cart_id": "cart_001", "order_date": "order_date", "total_amount": 180}'
+          body: '{"type":"order","name":"test11","username":"","bill_to":{"zip":"420420","country":"australia","address2":"street2","city":"bangalore","address1":"green glen layout","locality":"bellandur","name":"home","phone_number":"9876563542","state":"karnataka","email":"420@420.420"},"cart_id":"cart_001","order_date":"order_date","total_amount":180}'
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -3426,7 +3426,7 @@ paths:
           uri: /token
           headers:
             Content-Type: application/json
-          body: '{"grant_type":"client_credentials", "client_id":"YXA6WJywHzPPEeef7grYgfQDvw", "client_secret":"YXA6QYxf-0Tftdpx-_cNOJVu5suVAPs"}'
+          body: '{"grant_type":"client_credentials","client_id":"YXA6WJywHzPPEeef7grYgfQDvw","client_secret":"YXA6QYxf-0Tftdpx-_cNOJVu5suVAPs"}'
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
