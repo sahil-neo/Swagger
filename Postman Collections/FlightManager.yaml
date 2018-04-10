@@ -28,12 +28,7 @@ paths:
       operationId: ApisV1Carts0664eadb05fa11e8982c0ab8741a129cGet
       produces:
       - application/json
-      parameters:
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
+      parameters: []
       responses:
         200:
           description: ''
@@ -78,8 +73,6 @@ paths:
       - request:
           method: GET
           uri: /apis/v1/carts/0664eadb-05fa-11e8-982c-0ab8741a129c
-          headers:
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -112,12 +105,7 @@ paths:
       operationId: ApisV1CategoriesGet
       produces:
       - application/json
-      parameters:
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
+      parameters: []
       responses:
         200:
           description: ''
@@ -192,13 +180,12 @@ paths:
                 created: 1516626083887
                 modified: 1516626083887
               count: 11
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: GET
           uri: /apis/v1/categories
-          headers:
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -234,11 +221,6 @@ paths:
       parameters:
       - name: category
         in: query
-        required: true
-        type: string
-        description: ''
-      - name: Authorization
-        in: header
         required: true
         type: string
         description: ''
@@ -352,13 +334,12 @@ paths:
                 created_date: 1466672915
                 expiry_date: 1498208912
                 product_url: /products/40321974
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: GET
           uri: /apis/v1/search?category=Home
-          headers:
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -398,11 +379,6 @@ paths:
         description: ''
         schema:
           $ref: '#/definitions/UpdateCartRequest'
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
       - name: Content-Type
         in: header
         required: true
@@ -422,14 +398,14 @@ paths:
               created_at: 1492532089603
               updated_at: 1517415014058
               cart_id: 25abe5d8-2452-11e7-a2c2-122e0737977d
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: PUT
           uri: /apis/v1/carts/25abe5d8-2452-11e7-a2c2-122e0737977d
           headers:
             Content-Type: application/json
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
           body: '{"cart_details":{"session_id":"ddsd-ssd-sd-sds","cart_items":[{"quantity":"3","sku_id":"S1368433309753"}]}}'
         expectedResponse:
           x-allowExtraHeaders: true
@@ -470,11 +446,6 @@ paths:
         description: ''
         schema:
           $ref: '#/definitions/AddCartItemsRequest'
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
       responses:
         200:
           description: ''
@@ -489,14 +460,14 @@ paths:
               created_at: 1517343204204
               updated_at: 1517415005593
               cart_id: 0664eadb-05fa-11e8-982c-0ab8741a129c
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: POST
           uri: /apis/v1/carts/0664eadb-05fa-11e8-982c-0ab8741a129c/items
           headers:
             Content-Type: application/json
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
           body: '{"cart_items":[{"sku_id":"S40330686","quantity":1}]}'
         expectedResponse:
           x-allowExtraHeaders: true
@@ -537,11 +508,6 @@ paths:
         description: ''
         schema:
           $ref: '#/definitions/CreateCartRequest'
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
       - name: Content-Type
         in: header
         required: true
@@ -561,14 +527,14 @@ paths:
               created_at: 1517414996455
               updated_at: 1517414996455
               cart_id: 2de9105f-06a1-11e8-a836-122e0737977d
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: POST
           uri: /apis/v1/carts
           headers:
             Content-Type: application/json
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
           body: '{"cart_details":{"session_id":"abc","cart_items":[{"quantity":1,"sku_id":"S40330686"}]}}'
         expectedResponse:
           x-allowExtraHeaders: true
@@ -627,7 +593,8 @@ paths:
       responses:
         200:
           description: ''
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: GET
@@ -657,12 +624,7 @@ paths:
       operationId: ApisV1OrdersA7a52a4b2fd811e7990c0eec2415f3dfGet
       produces:
       - application/json
-      parameters:
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
+      parameters: []
       responses:
         200:
           description: ''
@@ -691,13 +653,12 @@ paths:
                 size: 855
               order_date: 2017-05-03
               username: usersagar
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: GET
           uri: /apis/v1/orders/a7a52a4b-2fd8-11e7-990c-0eec2415f3df
-          headers:
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -730,12 +691,7 @@ paths:
       operationId: ApisV1OrdersGet
       produces:
       - application/json
-      parameters:
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
+      parameters: []
       responses:
         200:
           description: ''
@@ -847,13 +803,12 @@ paths:
                 order_date: 2018-01-31
                 username: sandip
               count: 5
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: GET
           uri: /apis/v1/orders
-          headers:
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -892,11 +847,6 @@ paths:
         description: ''
         schema:
           $ref: '#/definitions/PostOrdersRequest'
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
       responses:
         200:
           description: ''
@@ -912,14 +862,14 @@ paths:
                 path: /orders/97044c87-06a2-11e8-a68e-0eec2415f3df
                 size: 319
               username: sandip
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: POST
           uri: /apis/v1/orders
           headers:
             Content-Type: application/json
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
           body: '{"type":"order","name":"test11","username":"","bill_to":{"zip":"420420","country":"australia","address2":"street2","city":"bangalore","address1":"green glen layout","locality":"bellandur","name":"home","phone_number":"9876563542","state":"karnataka","email":"420@420.420"},"cart_id":"cart_001","order_date":"order_date","total_amount":180}'
         expectedResponse:
           x-allowExtraHeaders: true
@@ -3101,7 +3051,8 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: GET
@@ -3137,12 +3088,7 @@ paths:
       operationId: ApisV1Products129575Get
       produces:
       - application/json
-      parameters:
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
+      parameters: []
       responses:
         200:
           description: ''
@@ -3181,13 +3127,12 @@ paths:
                 created_date: 1466672915
                 expiry_date: 1498208912
                 product_url: /products/129575
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: GET
           uri: /apis/v1/products/129575
-          headers:
-            Authorization: Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: RAW
@@ -3361,7 +3306,8 @@ paths:
                           CKIF: NULL
                           CKIT: NULL
                           CICR: NULL
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: GET
@@ -3419,7 +3365,8 @@ paths:
               access_token: YWMt-fsQXAajEei0UTHb-oci8QAAAWFxGjK9EpPz4PhkZnp2uemdw6KF5eoOQLI
               expires_in: 604800
               application: 589cb01f-33cf-11e7-9fee-0ad881f403bf
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: POST
@@ -3460,22 +3407,16 @@ paths:
       operationId: ArrivalsDa9a653c33dd11e7990c0eec2415f3dfDelete
       produces:
       - application/json
-      parameters:
-      - name: Authorization
-        in: header
-        required: true
-        type: string
-        description: ''
+      parameters: []
       responses:
         200:
           description: ''
-      security: []
+      security:
+      - auth: []
       x-unitTests:
       - request:
           method: DELETE
           uri: /arrivals/da9a653c-33dd-11e7-990c-0eec2415f3df
-          headers:
-            Authorization: Bearer YWMt-fsQXAajEei0UTHb-oci8QAAAWFxGjK9EpPz4PhkZnp2uemdw6KF5eoOQLI
         expectedResponse:
           x-allowExtraHeaders: true
           x-bodyMatchMode: NONE
