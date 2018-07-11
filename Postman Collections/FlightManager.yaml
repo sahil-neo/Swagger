@@ -373,17 +373,17 @@ paths:
       produces:
       - application/json
       parameters:
+      - name: Content-Type
+        in: header
+        required: true
+        type: string
+        description: ''
       - name: Body
         in: body
         required: true
         description: ''
         schema:
           $ref: '#/definitions/UpdateCartRequest'
-      - name: Content-Type
-        in: header
-        required: true
-        type: string
-        description: ''
       responses:
         200:
           description: ''
@@ -502,17 +502,17 @@ paths:
       produces:
       - application/json
       parameters:
+      - name: Content-Type
+        in: header
+        required: true
+        type: string
+        description: ''
       - name: Body
         in: body
         required: true
         description: ''
         schema:
           $ref: '#/definitions/CreateCartRequest'
-      - name: Content-Type
-        in: header
-        required: true
-        type: string
-        description: ''
       responses:
         200:
           description: ''
@@ -3344,17 +3344,17 @@ paths:
       produces:
       - application/json
       parameters:
+      - name: Content-Type
+        in: header
+        required: true
+        type: string
+        description: ''
       - name: Body
         in: body
         required: true
         description: ''
         schema:
           $ref: '#/definitions/FlightMonitorTokenRequest'
-      - name: Content-Type
-        in: header
-        required: true
-        type: string
-        description: ''
       responses:
         200:
           description: ''
