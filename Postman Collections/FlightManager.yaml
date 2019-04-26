@@ -6,8 +6,8 @@
   },
   "item": [
     {
-      "_postman_id": "2004808-a728f24b-fa2e-0812-8452-21da7f24880d",
       "name": "GetCart",
+      "_postman_id": "2004808-a728f24b-fa2e-0812-8452-21da7f24880d",
       "request": {
         "method": "GET",
         "header": [
@@ -16,7 +16,10 @@
             "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": "https://euw1-partner02-test.apigee.net/apis/v1/carts/0664eadb-05fa-11e8-982c-0ab8741a129c"
       },
       "response": [
@@ -31,7 +34,10 @@
                 "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
               }
             ],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
             "url": "https://euw1-partner02-test.apigee.net/apis/v1/carts/871263d5-2fd8-11e7-9fee-0ad881f403bf"
           },
           "status": "OK",
@@ -94,8 +100,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-ceabdcc8-6390-d1c6-e857-d72997d2e549",
       "name": "GetCategories",
+      "_postman_id": "2004808-ceabdcc8-6390-d1c6-e857-d72997d2e549",
       "request": {
         "method": "GET",
         "header": [
@@ -104,7 +110,10 @@
             "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": "https://euw1-partner02-test.apigee.net/apis/v1/categories"
       },
       "response": [
@@ -119,7 +128,10 @@
                 "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
               }
             ],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
             "url": "https://euw1-partner02-test.apigee.net/apis/v1/categories"
           },
           "status": "OK",
@@ -182,8 +194,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-169632b1-eea1-0248-50a5-9fa6f34843fe",
       "name": "GetProducts",
+      "_postman_id": "2004808-169632b1-eea1-0248-50a5-9fa6f34843fe",
       "request": {
         "method": "GET",
         "header": [
@@ -192,7 +204,10 @@
             "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://euw1-partner02-test.apigee.net/apis/v1/search?category=Home",
           "protocol": "https",
@@ -209,8 +224,7 @@
           "query": [
             {
               "key": "category",
-              "value": "Home",
-              "equals": true
+              "value": "Home"
             }
           ]
         }
@@ -227,7 +241,10 @@
                 "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
               }
             ],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
             "url": {
               "raw": "https://euw1-partner02-test.apigee.net/apis/v1/search?category=Home",
               "protocol": "https",
@@ -244,8 +261,7 @@
               "query": [
                 {
                   "key": "category",
-                  "value": "Home",
-                  "equals": true
+                  "value": "Home"
                 }
               ]
             }
@@ -310,8 +326,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-0f7a98e8-d26e-8142-e87e-a0b7336985ea",
       "name": "UpdateCart",
+      "_postman_id": "2004808-0f7a98e8-d26e-8142-e87e-a0b7336985ea",
       "request": {
         "method": "PUT",
         "header": [
@@ -412,8 +428,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-f70a0aad-9de7-3fca-02cf-dbe12e3385a5",
       "name": "AddCartItems",
+      "_postman_id": "2004808-f70a0aad-9de7-3fca-02cf-dbe12e3385a5",
       "request": {
         "method": "POST",
         "header": [
@@ -506,8 +522,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-f24a4147-c689-5855-7764-99a9956440e7",
       "name": "CreateCart",
+      "_postman_id": "2004808-f24a4147-c689-5855-7764-99a9956440e7",
       "request": {
         "method": "POST",
         "header": [
@@ -608,12 +624,15 @@
       ]
     },
     {
-      "_postman_id": "2004808-71af5aa7-6f96-c82f-5bd3-23dd715b661f",
       "name": "GetFlightfootfall",
+      "_postman_id": "2004808-71af5aa7-6f96-c82f-5bd3-23dd715b661f",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://euw1-partner02-test.apigee.net/flightfootfall?requesttype=D&queryfrom=20170615125500&queryto=2017061a5130000&apikey=HZAbfMD2pVIBP4J8Lfy5mVqvITYYBCSf",
           "protocol": "https",
@@ -628,23 +647,19 @@
           "query": [
             {
               "key": "requesttype",
-              "value": "D",
-              "equals": true
+              "value": "D"
             },
             {
               "key": "queryfrom",
-              "value": "20170615125500",
-              "equals": true
+              "value": "20170615125500"
             },
             {
               "key": "queryto",
-              "value": "2017061a5130000",
-              "equals": true
+              "value": "2017061a5130000"
             },
             {
               "key": "apikey",
-              "value": "HZAbfMD2pVIBP4J8Lfy5mVqvITYYBCSf",
-              "equals": true
+              "value": "HZAbfMD2pVIBP4J8Lfy5mVqvITYYBCSf"
             }
           ]
         }
@@ -652,8 +667,8 @@
       "response": []
     },
     {
-      "_postman_id": "2004808-d021ce6d-4fca-7cc5-99ff-8a2d7fbd0612",
       "name": "GetOrder",
+      "_postman_id": "2004808-d021ce6d-4fca-7cc5-99ff-8a2d7fbd0612",
       "request": {
         "method": "GET",
         "header": [
@@ -662,7 +677,10 @@
             "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": "https://euw1-partner02-test.apigee.net/apis/v1/orders/a7a52a4b-2fd8-11e7-990c-0eec2415f3df"
       },
       "response": [
@@ -677,7 +695,10 @@
                 "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
               }
             ],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
             "url": "https://euw1-partner02-test.apigee.net/apis/v1/orders/a7a52a4b-2fd8-11e7-990c-0eec2415f3df"
           },
           "status": "OK",
@@ -740,8 +761,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-43360ea5-7e35-85c7-7922-43c99992f100",
       "name": "GetOrders",
+      "_postman_id": "2004808-43360ea5-7e35-85c7-7922-43c99992f100",
       "request": {
         "method": "GET",
         "header": [
@@ -750,7 +771,10 @@
             "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": "https://euw1-partner02-test.apigee.net/apis/v1/orders"
       },
       "response": [
@@ -765,7 +789,10 @@
                 "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
               }
             ],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
             "url": "https://euw1-partner02-test.apigee.net/apis/v1/orders"
           },
           "status": "OK",
@@ -828,12 +855,15 @@
       ]
     },
     {
-      "_postman_id": "2004808-f2bfb35d-1d08-6f42-4b0d-7ea4d71994ec",
       "name": "GetFlightManagement",
+      "_postman_id": "2004808-f2bfb35d-1d08-6f42-4b0d-7ea4d71994ec",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://euw1-partner02-test.apigee.net/flightmanagement?requesttype=A&queryfrom=20180131111439&queryto=20180131121439&apikey=XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP",
           "protocol": "https",
@@ -848,23 +878,19 @@
           "query": [
             {
               "key": "requesttype",
-              "value": "A",
-              "equals": true
+              "value": "A"
             },
             {
               "key": "queryfrom",
-              "value": "20180131111439",
-              "equals": true
+              "value": "20180131111439"
             },
             {
               "key": "queryto",
-              "value": "20180131121439",
-              "equals": true
+              "value": "20180131121439"
             },
             {
               "key": "apikey",
-              "value": "XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP",
-              "equals": true
+              "value": "XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP"
             }
           ]
         }
@@ -876,7 +902,10 @@
           "originalRequest": {
             "method": "GET",
             "header": [],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
             "url": {
               "raw": "https://euw1-partner02-test.apigee.net/flightmanagement?requesttype=A&queryfrom=20180131111439&queryto=20180131121439&apikey=XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP",
               "protocol": "https",
@@ -891,23 +920,19 @@
               "query": [
                 {
                   "key": "requesttype",
-                  "value": "A",
-                  "equals": true
+                  "value": "A"
                 },
                 {
                   "key": "queryfrom",
-                  "value": "20180131111439",
-                  "equals": true
+                  "value": "20180131111439"
                 },
                 {
                   "key": "queryto",
-                  "value": "20180131121439",
-                  "equals": true
+                  "value": "20180131121439"
                 },
                 {
                   "key": "apikey",
-                  "value": "XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP",
-                  "equals": true
+                  "value": "XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP"
                 }
               ]
             }
@@ -966,8 +991,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-8d5232d4-b9c7-40ff-1547-317733164b95",
       "name": "GetProduct",
+      "_postman_id": "2004808-8d5232d4-b9c7-40ff-1547-317733164b95",
       "request": {
         "method": "GET",
         "header": [
@@ -976,7 +1001,10 @@
             "value": "Bearer uGqE7MKp0df1yUWRGlTx1kQxZeNI"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": "https://euw1-partner02-test.apigee.net/apis/v1/products/129575"
       },
       "response": [
@@ -992,7 +1020,10 @@
                 "warning": ""
               }
             ],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
             "url": "https://euw1-partner02-test.apigee.net/apis/v1/products/129575"
           },
           "status": "OK",
@@ -1055,12 +1086,15 @@
       ]
     },
     {
-      "_postman_id": "2004808-c3e7a868-0401-919f-7d23-e2e38979ad1e",
       "name": "FlightInfo",
+      "_postman_id": "2004808-c3e7a868-0401-919f-7d23-e2e38979ad1e",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "http://euw1-partner02-test.apigee.net/flightmonitorservice/flightinfo?request=1644859001&apikey=XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP",
           "protocol": "http",
@@ -1076,13 +1110,11 @@
           "query": [
             {
               "key": "request",
-              "value": "1644859001",
-              "equals": true
+              "value": "1644859001"
             },
             {
               "key": "apikey",
-              "value": "XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP",
-              "equals": true
+              "value": "XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP"
             }
           ]
         }
@@ -1094,7 +1126,10 @@
           "originalRequest": {
             "method": "GET",
             "header": [],
-            "body": {},
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
             "url": {
               "raw": "http://euw1-partner02-test.apigee.net/flightmonitorservice/flightinfo?request=1644859001&apikey=XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP",
               "protocol": "http",
@@ -1110,13 +1145,11 @@
               "query": [
                 {
                   "key": "request",
-                  "value": "1644859001",
-                  "equals": true
+                  "value": "1644859001"
                 },
                 {
                   "key": "apikey",
-                  "value": "XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP",
-                  "equals": true
+                  "value": "XUNOJUyIHcQ4WH6EJhHyGfA4F37dSWVP"
                 }
               ]
             }
@@ -1175,8 +1208,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-81ae0ec3-c860-9369-e082-6535d45d6cce",
       "name": "PostOrders",
+      "_postman_id": "2004808-81ae0ec3-c860-9369-e082-6535d45d6cce",
       "request": {
         "method": "POST",
         "header": [
@@ -1270,8 +1303,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-8eeae114-5ffb-dbd0-f20d-e681724ceeeb",
       "name": "FlightMonitorToken",
+      "_postman_id": "2004808-8eeae114-5ffb-dbd0-f20d-e681724ceeeb",
       "request": {
         "method": "POST",
         "header": [
@@ -1359,8 +1392,8 @@
       ]
     },
     {
-      "_postman_id": "2004808-552f0d20-8d83-9418-eff1-5e0ec02317d7",
       "name": "DeleteMonitoredFlight",
+      "_postman_id": "2004808-552f0d20-8d83-9418-eff1-5e0ec02317d7",
       "request": {
         "method": "DELETE",
         "header": [
@@ -1369,7 +1402,10 @@
             "value": "Bearer YWMt-fsQXAajEei0UTHb-oci8QAAAWFxGjK9EpPz4PhkZnp2uemdw6KF5eoOQLI"
           }
         ],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": "https://apibaas-trial.apigee.net/ax88008/flightmonitor/arrivals/da9a653c-33dd-11e7-990c-0eec2415f3df"
       },
       "response": []
