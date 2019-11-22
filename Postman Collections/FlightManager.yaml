@@ -21,7 +21,7 @@ paths:
       summary: GetCart
       tags:
       - Misc
-      operationId: ApisV1Carts0664eadb05fa11e8982c0ab8741a129cGet
+      operationId: GetCart
       deprecated: false
       produces:
       - application/json
@@ -94,7 +94,7 @@ paths:
       summary: GetCategories
       tags:
       - Misc
-      operationId: ApisV1CategoriesGet
+      operationId: GetCategories
       deprecated: false
       produces:
       - application/json
@@ -203,7 +203,7 @@ paths:
       summary: GetProducts
       tags:
       - Misc
-      operationId: ApisV1SearchGet
+      operationId: GetProducts
       deprecated: false
       produces:
       - application/json
@@ -353,7 +353,7 @@ paths:
       summary: UpdateCart
       tags:
       - Misc
-      operationId: ApisV1Carts25abe5d8245211e7A2c2122e0737977dPut
+      operationId: UpdateCart
       deprecated: false
       produces:
       - application/json
@@ -413,7 +413,7 @@ paths:
       summary: AddCartItems
       tags:
       - Misc
-      operationId: ApisV1Carts0664eadb05fa11e8982c0ab8741a129cItemsPost
+      operationId: AddCartItems
       deprecated: false
       produces:
       - application/json
@@ -468,7 +468,7 @@ paths:
       summary: CreateCart
       tags:
       - Misc
-      operationId: ApisV1CartsPost
+      operationId: CreateCart
       deprecated: false
       produces:
       - application/json
@@ -528,7 +528,7 @@ paths:
       summary: GetFlightfootfall
       tags:
       - Misc
-      operationId: FlightfootfallGet
+      operationId: GetFlightfootfall
       deprecated: false
       produces:
       - application/json
@@ -569,7 +569,7 @@ paths:
       summary: GetOrder
       tags:
       - Misc
-      operationId: ApisV1OrdersA7a52a4b2fd811e7990c0eec2415f3dfGet
+      operationId: GetOrder
       deprecated: false
       produces:
       - application/json
@@ -632,7 +632,7 @@ paths:
       summary: GetOrders
       tags:
       - Misc
-      operationId: ApisV1OrdersGet
+      operationId: GetOrders
       deprecated: false
       produces:
       - application/json
@@ -777,7 +777,7 @@ paths:
       summary: PostOrders
       tags:
       - Misc
-      operationId: ApisV1OrdersPost
+      operationId: PostOrders
       deprecated: false
       produces:
       - application/json
@@ -833,7 +833,7 @@ paths:
       summary: GetFlightManagement
       tags:
       - Misc
-      operationId: FlightmanagementGet
+      operationId: GetFlightManagement
       deprecated: false
       produces:
       - application/json
@@ -3012,7 +3012,7 @@ paths:
       summary: GetProduct
       tags:
       - Misc
-      operationId: ApisV1Products129575Get
+      operationId: GetProduct
       deprecated: false
       produces:
       - application/json
@@ -3085,7 +3085,7 @@ paths:
       summary: FlightInfo
       tags:
       - Misc
-      operationId: FlightinfoGet
+      operationId: FlightInfo
       deprecated: false
       produces:
       - application/json
@@ -3257,7 +3257,7 @@ paths:
       summary: FlightMonitorToken
       tags:
       - Misc
-      operationId: TokenPost
+      operationId: FlightMonitorToken
       deprecated: false
       produces:
       - application/json
@@ -3316,7 +3316,7 @@ paths:
       summary: DeleteMonitoredFlight
       tags:
       - Misc
-      operationId: ArrivalsDa9a653c33dd11e7990c0eec2415f3dfDelete
+      operationId: DeleteMonitoredFlight
       deprecated: false
       produces:
       - application/json
