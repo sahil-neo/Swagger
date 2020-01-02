@@ -2,7 +2,6 @@ swagger: '2.0'
 info:
   version: '1.0'
   title: FlightManager
-  description: 'TODO: Add Description'
   contact: {}
 host: euw1-partner02-test.apigee.net
 basePath: /
@@ -17,7 +16,6 @@ produces:
 paths:
   /apis/v1/carts/0664eadb-05fa-11e8-982c-0ab8741a129c:
     get:
-      description: 'TODO: Add Description'
       summary: GetCart
       tags:
       - Misc
@@ -90,7 +88,6 @@ paths:
               default: Express
   /apis/v1/categories:
     get:
-      description: 'TODO: Add Description'
       summary: GetCategories
       tags:
       - Misc
@@ -199,7 +196,6 @@ paths:
               default: Express
   /apis/v1/search:
     get:
-      description: 'TODO: Add Description'
       summary: GetProducts
       tags:
       - Misc
@@ -349,7 +345,6 @@ paths:
               default: Express
   /apis/v1/carts/25abe5d8-2452-11e7-a2c2-122e0737977d:
     put:
-      description: 'TODO: Add Description'
       summary: UpdateCart
       tags:
       - Misc
@@ -409,7 +404,6 @@ paths:
               default: Express
   /apis/v1/carts/0664eadb-05fa-11e8-982c-0ab8741a129c/items:
     post:
-      description: 'TODO: Add Description'
       summary: AddCartItems
       tags:
       - Misc
@@ -464,7 +458,6 @@ paths:
               default: Express
   /apis/v1/carts:
     post:
-      description: 'TODO: Add Description'
       summary: CreateCart
       tags:
       - Misc
@@ -524,7 +517,6 @@ paths:
               default: Express
   /flightfootfall:
     get:
-      description: 'TODO: Add Description'
       summary: GetFlightfootfall
       tags:
       - Misc
@@ -565,7 +557,6 @@ paths:
           headers: {}
   /apis/v1/orders/a7a52a4b-2fd8-11e7-990c-0eec2415f3df:
     get:
-      description: 'TODO: Add Description'
       summary: GetOrder
       tags:
       - Misc
@@ -628,7 +619,6 @@ paths:
               default: Express
   /apis/v1/orders:
     get:
-      description: 'TODO: Add Description'
       summary: GetOrders
       tags:
       - Misc
@@ -773,7 +763,6 @@ paths:
               type: string
               default: Express
     post:
-      description: 'TODO: Add Description'
       summary: PostOrders
       tags:
       - Misc
@@ -829,7 +818,6 @@ paths:
               default: Express
   /flightmanagement:
     get:
-      description: 'TODO: Add Description'
       summary: GetFlightManagement
       tags:
       - Misc
@@ -3008,7 +2996,6 @@ paths:
               default: Apache-Coyote/1.1
   /apis/v1/products/129575:
     get:
-      description: 'TODO: Add Description'
       summary: GetProduct
       tags:
       - Misc
@@ -3081,7 +3068,6 @@ paths:
               default: Express
   /flightinfo:
     get:
-      description: 'TODO: Add Description'
       summary: FlightInfo
       tags:
       - Misc
@@ -3253,7 +3239,6 @@ paths:
               default: Apache-Coyote/1.1
   /token:
     post:
-      description: 'TODO: Add Description'
       summary: FlightMonitorToken
       tags:
       - Misc
@@ -3312,7 +3297,6 @@ paths:
               default: Apache-Coyote/1.1
   /arrivals/da9a653c-33dd-11e7-990c-0eec2415f3df:
     delete:
-      description: 'TODO: Add Description'
       summary: DeleteMonitoredFlight
       tags:
       - Misc
