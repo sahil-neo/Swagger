@@ -31,7 +31,7 @@ paths:
         type: string
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/GetCart'
           examples:
@@ -103,7 +103,7 @@ paths:
         type: string
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/GetCategories'
           examples:
@@ -216,7 +216,7 @@ paths:
         description: ''
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/GetProducts'
           examples:
@@ -373,7 +373,7 @@ paths:
           $ref: '#/definitions/UpdateCartRequest'
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/UpdateCart'
           examples:
@@ -427,7 +427,7 @@ paths:
           $ref: '#/definitions/AddCartItemsRequest'
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/AddCartItems'
           examples:
@@ -488,7 +488,7 @@ paths:
           $ref: '#/definitions/CreateCartRequest'
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/CreateCart'
           examples:
@@ -576,7 +576,7 @@ paths:
         type: string
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/GetOrder'
           examples:
@@ -638,7 +638,7 @@ paths:
         type: string
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/GetOrders'
           examples:
@@ -788,7 +788,7 @@ paths:
           $ref: '#/definitions/PostOrdersRequest'
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/PostOrders'
           examples:
@@ -859,7 +859,7 @@ paths:
         description: ''
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/GetFlightManagement'
           examples:
@@ -3015,7 +3015,7 @@ paths:
         type: string
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/GetProduct'
           examples:
@@ -3098,7 +3098,7 @@ paths:
         description: ''
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/FlightInfo'
           examples:
@@ -3271,7 +3271,7 @@ paths:
           $ref: '#/definitions/FlightMonitorTokenRequest'
       responses:
         200:
-          description: ''
+          description: OK
           schema:
             $ref: '#/definitions/FlightMonitorToken'
           examples:
