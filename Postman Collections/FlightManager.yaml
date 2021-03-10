@@ -56,14 +56,14 @@ paths:
                   connecting:
                     contains: /skus/fd052bae-2272-11e7-a2c2-122e0737977d/connecting/contains
                     isinstanceof: /skus/fd052bae-2272-11e7-a2c2-122e0737977d/connecting/isinstanceof
-                price: 2.3799999999999999
+                price: 2.38
                 product_id: 978-0736430517
                 sku_description: Rado Original 38MM R12638173
                 sku_name: Rado Original 38MM R12638173
-                quantity: 1
-              total_base_price: 2.3799999999999999
-              total_discount: 0.26179999999999998
-              total_price: 2.1181999999999999
+                quantity: '1'
+              total_base_price: 2.38
+              total_discount: 0.2618
+              total_price: 2.1182
               created_at: 1493799268366
               updated_at: 1493799268366
               cart_id: 871263d5-2fd8-11e7-9fee-0ad881f403bf
@@ -73,7 +73,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 958
+              default: '958'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -181,7 +181,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 1545
+              default: '1545'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -223,16 +223,16 @@ paths:
             application/json:
               skusList:
               - name: Turkish Ribbed Bath Towels, 100% Cotton
-                product_id: 129575
+                product_id: '129575'
                 sku_id: S129575
                 sku_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
                 inventory_type: CONTINUE_SHOPPING
                 available_quantity: 10
                 barcode: ''
-                price: 29.989999999999998
+                price: 29.99
                 currency: ''
                 discount: 0.13
-                total_price: 29.989999999999998
+                total_price: 29.99
                 attributes: ''
                 image:
                 - http://s7d9.scene7.com/is/image/BedBathandBeyond/262528129575c?qlt=85,1&op_sharpen=1&resMode=bilin&id=0I3TR2&hei=1198&wid=1198&fmt=png-alpha
@@ -240,16 +240,16 @@ paths:
                 expiry_date: 1498208912
                 product_url: /products/129575
               - name: Kenneth Cole Reaction Home Towel Collection
-                product_id: 204148
+                product_id: '204148'
                 sku_id: S204148
                 sku_description: Luxurious comfort for the modern home, the Kenneth Cole Reaction Home Towel Collection is uniquely designed from combed cotton for a super plush look and sumptuously soft feel. These long-lasting towels are finished with a contemporary textured trim.
                 inventory_type: CONTINUE_SHOPPING
                 available_quantity: 10
                 barcode: ''
-                price: 19.989999999999998
+                price: 19.99
                 currency: ''
-                discount: 0.17999999999999999
-                total_price: 19.989999999999998
+                discount: 0.18
+                total_price: 19.99
                 attributes: ''
                 image:
                 - http://s7d9.scene7.com/is/image/BedBathandBeyond/234645204148c?qlt=85,1&op_sharpen=1&resMode=bilin&id=iKwSB1&hei=1198&wid=1198&fmt=png-alpha
@@ -257,7 +257,7 @@ paths:
                 expiry_date: 1498208912
                 product_url: /products/204148
               - name: Microdry® Cotton Bath Towels
-                product_id: 128595
+                product_id: '128595'
                 sku_id: S128595
                 sku_description: Towels and tubmats are made of aero spun technology with plush and luxurious low-twist fine yarns. These welcome additions to your bathroom are super absorbent and boast a plush, but not bulky feel.
                 inventory_type: CONTINUE_SHOPPING
@@ -274,16 +274,16 @@ paths:
                 expiry_date: 1498208912
                 product_url: /products/128595
               - name: Kathy Ireland Home Devon Collection 4-Lamp Set
-                product_id: 40321998
+                product_id: '40321998'
                 sku_id: S40321998
                 sku_description: Simple, traditional lighting works well with any decor. The Devon Collection from Kathy Ireland Home® is embodies a timeless design that will have everlasting appeal in your home.
                 inventory_type: CONTINUE_SHOPPING
                 available_quantity: 10
                 barcode: ''
-                price: 198.99000000000001
+                price: 198.99
                 currency: ''
                 discount: 0.11
-                total_price: 198.99000000000001
+                total_price: 198.99
                 attributes: ''
                 image:
                 - http://s7d9.scene7.com/is/image/BedBathandBeyond/21270140321998p?qlt=85,1&op_sharpen=1&resMode=bilin&id=G8aTt0&hei=1198&wid=1198&fmt=png-alpha
@@ -291,16 +291,16 @@ paths:
                 expiry_date: 1498208912
                 product_url: /products/40321998
               - name: Kathy Ireland Home The Broadway 3-Lamp Set (1 Floor/2 Table)
-                product_id: 40321981
+                product_id: '40321981'
                 sku_id: S40321981
                 sku_description: These stylish, transitional lamps easily blend into a variety of interiors making it easy to beautifully illuminate any room in your home.
                 inventory_type: CONTINUE_SHOPPING
                 available_quantity: 10
                 barcode: ''
-                price: 249.99000000000001
+                price: 249.99
                 currency: ''
                 discount: 0.11
-                total_price: 249.99000000000001
+                total_price: 249.99
                 attributes: ''
                 image:
                 - http://s7d9.scene7.com/is/image/BedBathandBeyond/21270040321981p?qlt=85,1&op_sharpen=1&resMode=bilin&id=NG0Tv2&hei=1198&wid=1198&fmt=png-alpha
@@ -308,16 +308,16 @@ paths:
                 expiry_date: 1498208912
                 product_url: /products/40321981
               - name: Riviera Table Lamp (Set of 2)
-                product_id: 40321974
+                product_id: '40321974'
                 sku_id: S40321974
                 sku_description: This dignified lamp set features a faux brown marble accents and a cima gold finish for some upscale flare. Crafted of metal and resin with faux silk fabric soft bell shape, beige shade.
                 inventory_type: CONTINUE_SHOPPING
                 available_quantity: 10
                 barcode: ''
-                price: 158.99000000000001
+                price: 158.99
                 currency: ''
-                discount: 0.17999999999999999
-                total_price: 158.99000000000001
+                discount: 0.18
+                total_price: 158.99
                 attributes: ''
                 image:
                 - http://s7d9.scene7.com/is/image/BedBathandBeyond/21269940321974p?qlt=85,1&op_sharpen=1&resMode=bilin&id=U8QSH1&hei=1198&wid=1198&fmt=png-alpha
@@ -330,7 +330,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 4164
+              default: '4164'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -380,7 +380,7 @@ paths:
             application/json:
               session_id: ddsd-ssd-sd-sds
               cart_items:
-              - quantity: 3
+              - quantity: '3'
                 sku_id: S1368433309753
               created_at: 1492532089603
               updated_at: 1517415014058
@@ -391,7 +391,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 193
+              default: '193'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -434,7 +434,7 @@ paths:
             application/json:
               session_id: 20:13:08
               cart_items:
-              - quantity: 1
+              - quantity: '1'
                 sku_id: S40330686
               created_at: 1517343204204
               updated_at: 1517415005593
@@ -445,7 +445,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 181
+              default: '181'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -506,7 +506,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 174
+              default: '174'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -593,7 +593,7 @@ paths:
                 address1: C303
                 locality: Palava
                 name: Himesh
-                phone_number: 9664726776
+                phone_number: '9664726776'
                 state: Maharashtra
                 email: himesh.rupareliya@gmail.com
               cart_id: 871263d5-2fd8-11e7-9fee-0ad881f403bf
@@ -608,7 +608,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 551
+              default: '551'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -650,14 +650,14 @@ paths:
                 created: 1517414601477
                 modified: 1517414601477
                 bill_to:
-                  zip: 455445
+                  zip: '455445'
                   country: In
                   address2: Address 2
                   city: Pune
                   address1: Address 1
                   locality: India
                   name: Juju
-                  phone_number: 9888998888
+                  phone_number: '9888998888'
                   state: GH
                   email: ju@gmail.com
                 cart_id: 9f482b30-0699-11e8-982c-0ab8741a129c
@@ -673,14 +673,14 @@ paths:
                 created: 1517414096074
                 modified: 1517414096074
                 bill_to:
-                  zip: 664546
+                  zip: '664546'
                   country: US
                   address2: UK
                   city: SA
                   address1: USA
                   locality: CA
                   name: Tony
-                  phone_number: 646464646
+                  phone_number: '646464646'
                   state: CA
                   email: gagagag@gmail.com
                 cart_id: d62d913d-069e-11e8-8748-0aa492e6e508
@@ -696,14 +696,14 @@ paths:
                 created: 1517409210606
                 modified: 1517409210606
                 bill_to:
-                  zip: 1212
+                  zip: '1212'
                   country: asdsad
                   address2: asdsads
                   city: dsadsa
                   address1: asdsa
                   locality: dsadsa
                   name: adnan
-                  phone_number: 12345678
+                  phone_number: '12345678'
                   state: sadsadsa
                   email: test@test.com
                 cart_id: 94226003-0693-11e8-a68e-0eec2415f3df
@@ -729,14 +729,14 @@ paths:
                 created: 1517404197698
                 modified: 1517404197698
                 bill_to:
-                  zip: 7677
+                  zip: '7677'
                   country: SADSA
                   address2: akjshkkjAH
                   city: SASAD
                   address1: DSADSADH
                   locality: ASDAD
                   name: Sagar
-                  phone_number: 7677767
+                  phone_number: '7677767'
                   state: SASADSA
                   email: sgsgs2GG.CO
                 cart_id: e082575e-0687-11e8-8b59-12c1e35638f0
@@ -753,7 +753,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 2575
+              default: '2575'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -807,7 +807,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 209
+              default: '209'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -867,9 +867,9 @@ paths:
               GetFlightInfoResponse:
                 flightsInfo:
                   INFOBJ_FLIGHT:
-                  - URNO: 649926177
+                  - URNO: '649926177'
                     ADID: A
-                    SIBT: 20180131120500
+                    SIBT: '20180131120500'
                     SOBT: ''
                     FLNO: EK 902
                     CSGN: UAE902
@@ -881,18 +881,18 @@ paths:
                     FLNS: ''
                     REGN: ''
                     RKEY: '649926177 '
-                    ETOA: 20180131120500
-                    EIBT: 20180131120500
+                    ETOA: '20180131120500'
+                    EIBT: '20180131120500'
                     ETAU: ''
                     EIBN: ''
-                    ETAA: 20180131120500
+                    ETAA: '20180131120500'
                     ETAE: ''
                     DES3: DXB
                     DES4: OMDB
                     ORG3: AMM
                     ORG4: OJAI
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -902,8 +902,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131120500
-                    PAES: 20180131123500
+                    PABS: '20180131120500'
+                    PAES: '20180131123500'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -934,11 +934,11 @@ paths:
                     AIBT: ''
                     ONBU: ''
                     ONBD: ''
-                    ETOD: 20180131091500
-                    EOBT: 20180131091500
+                    ETOD: '20180131091500'
+                    EOBT: '20180131091500'
                     ETDU: ''
                     EOBN: ''
-                    ETDA: 20180131091500
+                    ETDA: '20180131091500'
                     ETDE: ''
                     PSTD: ''
                     PDBS: ''
@@ -973,7 +973,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 3
+                    STEV: '3'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -982,7 +982,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -1008,9 +1008,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 216645138
+                  - URNO: '216645138'
                     ADID: A
-                    SIBT: 20180131120000
+                    SIBT: '20180131120000'
                     SOBT: ''
                     FLNO: IX 435
                     CSGN: AXB435
@@ -1033,7 +1033,7 @@ paths:
                     ORG3: COK
                     ORG4: VOCI
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -1043,8 +1043,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131120000
-                    PAES: 20180131123000
+                    PABS: '20180131120000'
+                    PAES: '20180131123000'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -1114,7 +1114,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 2
+                    STEV: '2'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -1123,7 +1123,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -1149,9 +1149,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 29806083
+                  - URNO: '29806083'
                     ADID: A
-                    SIBT: 20180131120000
+                    SIBT: '20180131120000'
                     SOBT: ''
                     FLNO: IX 141
                     CSGN: AXB141
@@ -1174,7 +1174,7 @@ paths:
                     ORG3: DEL
                     ORG4: VIDP
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -1184,8 +1184,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131120000
-                    PAES: 20180131123000
+                    PABS: '20180131120000'
+                    PAES: '20180131123000'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -1255,7 +1255,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 2
+                    STEV: '2'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -1264,7 +1264,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -1290,9 +1290,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1831890316
+                  - URNO: '1831890316'
                     ADID: A
-                    SIBT: 20180131115500
+                    SIBT: '20180131115500'
                     SOBT: ''
                     FLNO: FZ 4360
                     CSGN: FDB4360
@@ -1303,7 +1303,7 @@ paths:
                     ALC3: FDB
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1831890316
+                    RKEY: '1831890316'
                     ETOA: ''
                     EIBT: ''
                     ETAU: ''
@@ -1315,7 +1315,7 @@ paths:
                     ORG3: KDH
                     ORG4: OAKN
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -1325,8 +1325,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131115500
-                    PAES: 20180131122500
+                    PABS: '20180131115500'
+                    PAES: '20180131122500'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -1396,7 +1396,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 2
+                    STEV: '2'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -1405,7 +1405,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -1431,9 +1431,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 758913719
+                  - URNO: '758913719'
                     ADID: A
-                    SIBT: 20180131112500
+                    SIBT: '20180131112500'
                     SOBT: ''
                     FLNO: FZ 584
                     CSGN: FDB584
@@ -1456,7 +1456,7 @@ paths:
                     ORG3: DAC
                     ORG4: VGHS
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -1466,8 +1466,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131112500
-                    PAES: 20180131115500
+                    PABS: '20180131112500'
+                    PAES: '20180131115500'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -1537,7 +1537,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 2
+                    STEV: '2'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -1546,7 +1546,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -1572,9 +1572,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 844734119
+                  - URNO: '844734119'
                     ADID: A
-                    SIBT: 20180131120500
+                    SIBT: '20180131120500'
                     SOBT: ''
                     FLNO: UPS003
                     CSGN: UPS003
@@ -1597,7 +1597,7 @@ paths:
                     ORG3: HKG
                     ORG4: VHHH
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -1607,8 +1607,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131120500
-                    PAES: 20180131130230
+                    PABS: '20180131120500'
+                    PAES: '20180131130230'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -1687,7 +1687,7 @@ paths:
                     TTYP: CS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -1713,9 +1713,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1330686431
+                  - URNO: '1330686431'
                     ADID: A
-                    SIBT: 20180131114500
+                    SIBT: '20180131114500'
                     SOBT: ''
                     FLNO: FZ 004
                     CSGN: FDB004
@@ -1726,7 +1726,7 @@ paths:
                     ALC3: FDB
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1330686431
+                    RKEY: '1330686431'
                     ETOA: ''
                     EIBT: ''
                     ETAU: ''
@@ -1738,7 +1738,7 @@ paths:
                     ORG3: DOH
                     ORG4: OTHH
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -1748,8 +1748,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131114500
-                    PAES: 20180131121500
+                    PABS: '20180131114500'
+                    PAES: '20180131121500'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -1819,7 +1819,7 @@ paths:
                     AIRA: ''
                     FTYP: N
                     EETT: ''
-                    STEV: 2
+                    STEV: '2'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -1828,7 +1828,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -1854,20 +1854,20 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1928472409
+                  - URNO: '1928472409'
                     ADID: A
-                    SIBT: 20180131115500
+                    SIBT: '20180131115500'
                     SOBT: ''
                     FLNO: RB 515
                     CSGN: SYR515
                     SEAS: W17
-                    ACT3: 343
+                    ACT3: '343'
                     ACT5: A343
                     ALC2: RB
                     ALC3: SYR
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1928472409
+                    RKEY: '1928472409'
                     ETOA: ''
                     EIBT: ''
                     ETAU: ''
@@ -1879,7 +1879,7 @@ paths:
                     ORG3: DAM
                     ORG4: OSDI
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -1889,8 +1889,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131115500
-                    PAES: 20180131124000
+                    PABS: '20180131115500'
+                    PAES: '20180131124000'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -1960,7 +1960,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 1
+                    STEV: '1'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -1969,7 +1969,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -1995,20 +1995,20 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1138183840
+                  - URNO: '1138183840'
                     ADID: A
-                    SIBT: 20180131111500
+                    SIBT: '20180131111500'
                     SOBT: ''
                     FLNO: EK 5417
                     CSGN: UAE5417
                     SEAS: W17
-                    ACT3: 388
+                    ACT3: '388'
                     ACT5: A388
                     ALC2: EK
                     ALC3: UAE
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1138183840
+                    RKEY: '1138183840'
                     ETOA: ''
                     EIBT: ''
                     ETAU: ''
@@ -2020,7 +2020,7 @@ paths:
                     ORG3: SYD
                     ORG4: YSSY
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -2030,8 +2030,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131111500
-                    PAES: 20180131114500
+                    PABS: '20180131111500'
+                    PAES: '20180131114500'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -2101,7 +2101,7 @@ paths:
                     AIRA: ''
                     FTYP: N
                     EETT: ''
-                    STEV: 3
+                    STEV: '3'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -2110,7 +2110,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -2136,9 +2136,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 675371451
+                  - URNO: '675371451'
                     ADID: A
-                    SIBT: 20180131120000
+                    SIBT: '20180131120000'
                     SOBT: ''
                     FLNO: SV 588
                     CSGN: SVA588
@@ -2161,7 +2161,7 @@ paths:
                     ORG3: JED
                     ORG4: OEJN
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -2171,8 +2171,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131120000
-                    PAES: 20180131124500
+                    PABS: '20180131120000'
+                    PAES: '20180131124500'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -2242,7 +2242,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 1
+                    STEV: '1'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -2251,7 +2251,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -2277,9 +2277,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1285394376
+                  - URNO: '1285394376'
                     ADID: A
-                    SIBT: 20180131114500
+                    SIBT: '20180131114500'
                     SOBT: ''
                     FLNO: ET 602
                     CSGN: ETH602
@@ -2290,7 +2290,7 @@ paths:
                     ALC3: ETH
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1285394376
+                    RKEY: '1285394376'
                     ETOA: ''
                     EIBT: ''
                     ETAU: ''
@@ -2302,7 +2302,7 @@ paths:
                     ORG3: ADD
                     ORG4: HAAB
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -2312,8 +2312,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131114500
-                    PAES: 20180131122730
+                    PABS: '20180131114500'
+                    PAES: '20180131122730'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -2383,7 +2383,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 1
+                    STEV: '1'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -2392,7 +2392,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -2418,9 +2418,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1441625012
+                  - URNO: '1441625012'
                     ADID: A
-                    SIBT: 20180131115500
+                    SIBT: '20180131115500'
                     SOBT: ''
                     FLNO: QB 2200
                     CSGN: QSM2200
@@ -2431,7 +2431,7 @@ paths:
                     ALC3: QSM
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1441625012
+                    RKEY: '1441625012'
                     ETOA: ''
                     EIBT: ''
                     ETAU: ''
@@ -2443,7 +2443,7 @@ paths:
                     ORG3: GSM
                     ORG4: OIKQ
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -2453,8 +2453,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131115500
-                    PAES: 20180131122730
+                    PABS: '20180131115500'
+                    PAES: '20180131122730'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -2524,7 +2524,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 2
+                    STEV: '2'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -2533,7 +2533,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -2559,10 +2559,10 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1251741354
+                  - URNO: '1251741354'
                     ADID: A
-                    SIBT: 20180131111500
-                    SOBT: 20180131055000
+                    SIBT: '20180131111500'
+                    SOBT: '20180131055000'
                     FLNO: EK 583
                     CSGN: UAE583
                     SEAS: W17
@@ -2572,19 +2572,19 @@ paths:
                     ALC3: UAE
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1251741354
-                    ETOA: 20180131111500
-                    EIBT: 20180131111500
+                    RKEY: '1251741354'
+                    ETOA: '20180131111500'
+                    EIBT: '20180131111500'
                     ETAU: ''
                     EIBN: ''
-                    ETAA: 20180131111500
+                    ETAA: '20180131111500'
                     ETAE: ''
                     DES3: DXB
                     DES4: OMDB
                     ORG3: DAC
                     ORG4: VGHS
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -2594,8 +2594,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131111500
-                    PAES: 20180131114500
+                    PABS: '20180131111500'
+                    PAES: '20180131114500'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -2626,11 +2626,11 @@ paths:
                     AIBT: ''
                     ONBU: ''
                     ONBD: ''
-                    ETOD: 20180131055000
-                    EOBT: 20180131055000
+                    ETOD: '20180131055000'
+                    EOBT: '20180131055000'
                     ETDU: ''
                     EOBN: ''
-                    ETDA: 20180131055000
+                    ETDA: '20180131055000'
                     ETDE: ''
                     PSTD: ''
                     PDBS: ''
@@ -2665,7 +2665,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 3
+                    STEV: '3'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -2674,7 +2674,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -2700,9 +2700,9 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1393162571
+                  - URNO: '1393162571'
                     ADID: A
-                    SIBT: 20180131113000
+                    SIBT: '20180131113000'
                     SOBT: ''
                     FLNO: FZ 832
                     CSGN: FDB832
@@ -2713,7 +2713,7 @@ paths:
                     ALC3: FDB
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1393162571
+                    RKEY: '1393162571'
                     ETOA: ''
                     EIBT: ''
                     ETAU: ''
@@ -2725,7 +2725,7 @@ paths:
                     ORG3: JED
                     ORG4: OEJN
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -2735,8 +2735,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131113000
-                    PAES: 20180131120000
+                    PABS: '20180131113000'
+                    PAES: '20180131120000'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -2806,7 +2806,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 2
+                    STEV: '2'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -2815,7 +2815,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -2841,20 +2841,20 @@ paths:
                     YBAC: ''
                     YBOB: ''
                     YFBG: ''
-                  - URNO: 1244246193
+                  - URNO: '1244246193'
                     ADID: A
-                    SIBT: 20180131113500
+                    SIBT: '20180131113500'
                     SOBT: ''
                     FLNO: WY 609
                     CSGN: OMA609
                     SEAS: W17
-                    ACT3: 738
+                    ACT3: '738'
                     ACT5: B738
                     ALC2: WY
                     ALC3: OMA
                     FLNS: ''
                     REGN: ''
-                    RKEY: 1244246193
+                    RKEY: '1244246193'
                     ETOA: ''
                     EIBT: ''
                     ETAU: ''
@@ -2866,7 +2866,7 @@ paths:
                     ORG3: MCT
                     ORG4: OOMS
                     REMP: ''
-                    VIAN: 0
+                    VIAN: '0'
                     VIAL: ''
                     ELDT: ''
                     TMOA: ''
@@ -2876,8 +2876,8 @@ paths:
                     LNDU: ''
                     LNDD: ''
                     PSTA: ''
-                    PABS: 20180131113500
-                    PAES: 20180131122500
+                    PABS: '20180131113500'
+                    PAES: '20180131122500'
                     PABA: ''
                     PAEA: ''
                     GTA1: ''
@@ -2947,7 +2947,7 @@ paths:
                     AIRA: ''
                     FTYP: S
                     EETT: ''
-                    STEV: 1
+                    STEV: '1'
                     CONC: ''
                     HTYP: CO
                     JCNT: ''
@@ -2956,7 +2956,7 @@ paths:
                     TTYP: PS
                     TOBT: ''
                     TPAX: ''
-                    WCHR: 0
+                    WCHR: '0'
                     FPAH: ''
                     FPAC: ''
                     FPOB: ''
@@ -2988,7 +2988,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 23139
+              default: '23139'
             content-type:
               type: string
               default: application/json
@@ -3020,7 +3020,7 @@ paths:
             $ref: '#/definitions/GetProduct'
           examples:
             application/json:
-              id: 129575
+              id: '129575'
               name: Turkish Ribbed Bath Towels, 100% Cotton
               short_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
               long_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
@@ -3032,19 +3032,19 @@ paths:
               vendor: ''
               reviews: ''
               rating: ''
-              overall_rating: 4.3300000000000001
+              overall_rating: 4.33
               skus:
               - name: Turkish Ribbed Bath Towels, 100% Cotton
-                product_id: 129575
+                product_id: '129575'
                 sku_id: S129575
                 sku_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
                 inventory_type: CONTINUE_SHOPPING
                 available_quantity: 10
                 barcode: ''
-                price: 29.989999999999998
+                price: 29.99
                 currency: ''
                 discount: 0.13
-                total_price: 29.989999999999998
+                total_price: 29.99
                 attributes: ''
                 image:
                 - http://s7d9.scene7.com/is/image/BedBathandBeyond/262528129575c?qlt=85,1&op_sharpen=1&resMode=bilin&id=0I3TR2&hei=1198&wid=1198&fmt=png-alpha
@@ -3057,7 +3057,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 1269
+              default: '1269'
             content-type:
               type: string
               default: application/json; charset=utf-8
@@ -3111,7 +3111,7 @@ paths:
                         flight:
                           URNO: 1644859001
                           ADID: D
-                          SIBT: NULL
+                          SIBT: 'NULL'
                           SOBT: 20160415214000
                           FLNO: BA 106
                           CSGN: BAW106
@@ -3120,14 +3120,14 @@ paths:
                           ACT5: B744
                           ALC2: BA
                           ALC3: BAW
-                          FLNS: NULL
+                          FLNS: 'NULL'
                           REGN: GCIVS
                           RKEY: 1644859000
                           ETOA: 20160416043800
                           EIBT: 20160416045900
-                          ETAU: NULL
-                          EIBN: NULL
-                          ETAA: NULL
+                          ETAU: 'NULL'
+                          EIBN: 'NULL'
+                          ETAA: 'NULL'
                           ETAE: 20160416045900
                           DES3: LHR
                           DES4: EGLL
@@ -3135,103 +3135,103 @@ paths:
                           ORG4: OMDB
                           REMP: DEP
                           VIAN: 0
-                          VIAL: NULL
-                          ELDT: NULL
-                          TMOA: NULL
-                          RWYA: NULL
-                          ALDT: NULL
-                          LNDA: NULL
-                          LNDU: NULL
-                          LNDD: NULL
-                          PSTA: NULL
-                          PABS: NULL
-                          PAES: NULL
-                          PABA: NULL
-                          PAEA: NULL
-                          GTA1: NULL
-                          GTA2: NULL
-                          GA1B: NULL
-                          GA1E: NULL
-                          GA1X: NULL
-                          GA1Y: NULL
-                          GA2B: NULL
-                          GA2E: NULL
-                          GA2X: NULL
-                          GA2Y: NULL
-                          BLT1: NULL
-                          BLT2: NULL
-                          B1BS: NULL
-                          B1ES: NULL
-                          B1BA: NULL
-                          B1EA: NULL
-                          B2BS: NULL
-                          B2ES: NULL
-                          B2BA: NULL
-                          B2EA: NULL
-                          BAZ1: NULL
-                          BAO1: NULL
-                          BAC1: NULL
-                          BAS1: NULL
-                          BAE1: NULL
-                          AIBT: NULL
-                          ONBU: NULL
-                          ONBD: NULL
+                          VIAL: 'NULL'
+                          ELDT: 'NULL'
+                          TMOA: 'NULL'
+                          RWYA: 'NULL'
+                          ALDT: 'NULL'
+                          LNDA: 'NULL'
+                          LNDU: 'NULL'
+                          LNDD: 'NULL'
+                          PSTA: 'NULL'
+                          PABS: 'NULL'
+                          PAES: 'NULL'
+                          PABA: 'NULL'
+                          PAEA: 'NULL'
+                          GTA1: 'NULL'
+                          GTA2: 'NULL'
+                          GA1B: 'NULL'
+                          GA1E: 'NULL'
+                          GA1X: 'NULL'
+                          GA1Y: 'NULL'
+                          GA2B: 'NULL'
+                          GA2E: 'NULL'
+                          GA2X: 'NULL'
+                          GA2Y: 'NULL'
+                          BLT1: 'NULL'
+                          BLT2: 'NULL'
+                          B1BS: 'NULL'
+                          B1ES: 'NULL'
+                          B1BA: 'NULL'
+                          B1EA: 'NULL'
+                          B2BS: 'NULL'
+                          B2ES: 'NULL'
+                          B2BA: 'NULL'
+                          B2EA: 'NULL'
+                          BAZ1: 'NULL'
+                          BAO1: 'NULL'
+                          BAC1: 'NULL'
+                          BAS1: 'NULL'
+                          BAE1: 'NULL'
+                          AIBT: 'NULL'
+                          ONBU: 'NULL'
+                          ONBD: 'NULL'
                           ETOD: 20160415214000
                           EOBT: 20160415214000
-                          ETDU: NULL
-                          EOBN: NULL
+                          ETDU: 'NULL'
+                          EOBN: 'NULL'
                           ETDA: 20160415214000
                           ETDE: 20160415214000
                           PSTD: C49
                           PDBS: 20160415202015
                           PDES: 20160415214000
-                          PDBA: NULL
-                          PDEA: NULL
+                          PDBA: 'NULL'
+                          PDEA: 'NULL'
                           GTD1: D2
-                          GTD2: NULL
-                          GD1B: NULL
-                          GD1E: NULL
+                          GTD2: 'NULL'
+                          GD1B: 'NULL'
+                          GD1E: 'NULL'
                           GD1X: 20160415201201
                           GD1Y: 20160415212801
-                          GD2B: NULL
-                          GD2E: NULL
-                          GD2X: NULL
-                          GD2Y: NULL
+                          GD2B: 'NULL'
+                          GD2E: 'NULL'
+                          GD2X: 'NULL'
+                          GD2Y: 'NULL'
                           BOAC: 20160415212801
-                          FCAL: NULL
+                          FCAL: 'NULL'
                           BOAO: 20160415205424
                           ETDC: 20160415213733
-                          ETOU: NULL
-                          ETTA: NULL
-                          ETTE: NULL
+                          ETOU: 'NULL'
+                          ETTA: 'NULL'
+                          ETTE: 'NULL'
                           AOBT: 20160415214026
-                          OFBU: NULL
+                          OFBU: 'NULL'
                           OFBD: 20160415214026
-                          OFBS: NULL
+                          OFBS: 'NULL'
                           RWYD: 30L
                           ATOT: 20160415220716
-                          AIRU: NULL
+                          AIRU: 'NULL'
                           AIRD: 20160415220716
                           AIRA: 20160415220752
                           FTYP: O
-                          EETT: NULL
+                          EETT: 'NULL'
                           STEV: 1
-                          CONC: NULL
+                          CONC: 'NULL'
                           HTYP: SC
                           JCNT: 3
                           JFNO: AA 6416  IB 7629  EI 8806
                           STYP: J
                           TTYP: PS
-                          CKIF: NULL
-                          CKIT: NULL
-                          CICR: NULL
+                          CKIF: 'NULL'
+                          CKIT: 'NULL'
+                          CICR: 'NULL'
           headers:
             connection:
               type: string
               default: keep-alive
             content-length:
               type: string
-              default: 1883
+              default: '1883'
             content-type:
               type: string
               default: '*/*'
@@ -3282,7 +3282,7 @@ paths:
           headers:
             access-control-allow-credentials:
               type: string
-              default: true
+              default: 'true'
             access-control-allow-origin:
               type: string
               default: chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo
@@ -3291,7 +3291,7 @@ paths:
               default: keep-alive
             content-length:
               type: string
-              default: 155
+              default: '155'
             content-type:
               type: string
               default: application/json
@@ -3344,14 +3344,14 @@ definitions:
           connecting:
             contains: /skus/fd052bae-2272-11e7-a2c2-122e0737977d/connecting/contains
             isinstanceof: /skus/fd052bae-2272-11e7-a2c2-122e0737977d/connecting/isinstanceof
-        price: 2.3799999999999999
+        price: 2.38
         product_id: 978-0736430517
         sku_description: Rado Original 38MM R12638173
         sku_name: Rado Original 38MM R12638173
-        quantity: 1
-      total_base_price: 2.3799999999999999
-      total_discount: 0.26179999999999998
-      total_price: 2.1181999999999999
+        quantity: '1'
+      total_base_price: 2.38
+      total_discount: 0.2618
+      total_price: 2.1182
       created_at: 1493799268366
       updated_at: 1493799268366
       cart_id: 871263d5-2fd8-11e7-9fee-0ad881f403bf
@@ -3410,11 +3410,11 @@ definitions:
         connecting:
           contains: /skus/fd052bae-2272-11e7-a2c2-122e0737977d/connecting/contains
           isinstanceof: /skus/fd052bae-2272-11e7-a2c2-122e0737977d/connecting/isinstanceof
-      price: 2.3799999999999999
+      price: 2.38
       product_id: 978-0736430517
       sku_description: Rado Original 38MM R12638173
       sku_name: Rado Original 38MM R12638173
-      quantity: 1
+      quantity: '1'
     type: object
     properties:
       uuid:
@@ -3632,16 +3632,16 @@ definitions:
     example:
       skusList:
       - name: Turkish Ribbed Bath Towels, 100% Cotton
-        product_id: 129575
+        product_id: '129575'
         sku_id: S129575
         sku_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
         inventory_type: CONTINUE_SHOPPING
         available_quantity: 10
         barcode: ''
-        price: 29.989999999999998
+        price: 29.99
         currency: ''
         discount: 0.13
-        total_price: 29.989999999999998
+        total_price: 29.99
         attributes: ''
         image:
         - http://s7d9.scene7.com/is/image/BedBathandBeyond/262528129575c?qlt=85,1&op_sharpen=1&resMode=bilin&id=0I3TR2&hei=1198&wid=1198&fmt=png-alpha
@@ -3649,16 +3649,16 @@ definitions:
         expiry_date: 1498208912
         product_url: /products/129575
       - name: Kenneth Cole Reaction Home Towel Collection
-        product_id: 204148
+        product_id: '204148'
         sku_id: S204148
         sku_description: Luxurious comfort for the modern home, the Kenneth Cole Reaction Home Towel Collection is uniquely designed from combed cotton for a super plush look and sumptuously soft feel. These long-lasting towels are finished with a contemporary textured trim.
         inventory_type: CONTINUE_SHOPPING
         available_quantity: 10
         barcode: ''
-        price: 19.989999999999998
+        price: 19.99
         currency: ''
-        discount: 0.17999999999999999
-        total_price: 19.989999999999998
+        discount: 0.18
+        total_price: 19.99
         attributes: ''
         image:
         - http://s7d9.scene7.com/is/image/BedBathandBeyond/234645204148c?qlt=85,1&op_sharpen=1&resMode=bilin&id=iKwSB1&hei=1198&wid=1198&fmt=png-alpha
@@ -3666,7 +3666,7 @@ definitions:
         expiry_date: 1498208912
         product_url: /products/204148
       - name: Microdry® Cotton Bath Towels
-        product_id: 128595
+        product_id: '128595'
         sku_id: S128595
         sku_description: Towels and tubmats are made of aero spun technology with plush and luxurious low-twist fine yarns. These welcome additions to your bathroom are super absorbent and boast a plush, but not bulky feel.
         inventory_type: CONTINUE_SHOPPING
@@ -3683,16 +3683,16 @@ definitions:
         expiry_date: 1498208912
         product_url: /products/128595
       - name: Kathy Ireland Home Devon Collection 4-Lamp Set
-        product_id: 40321998
+        product_id: '40321998'
         sku_id: S40321998
         sku_description: Simple, traditional lighting works well with any decor. The Devon Collection from Kathy Ireland Home® is embodies a timeless design that will have everlasting appeal in your home.
         inventory_type: CONTINUE_SHOPPING
         available_quantity: 10
         barcode: ''
-        price: 198.99000000000001
+        price: 198.99
         currency: ''
         discount: 0.11
-        total_price: 198.99000000000001
+        total_price: 198.99
         attributes: ''
         image:
         - http://s7d9.scene7.com/is/image/BedBathandBeyond/21270140321998p?qlt=85,1&op_sharpen=1&resMode=bilin&id=G8aTt0&hei=1198&wid=1198&fmt=png-alpha
@@ -3700,16 +3700,16 @@ definitions:
         expiry_date: 1498208912
         product_url: /products/40321998
       - name: Kathy Ireland Home The Broadway 3-Lamp Set (1 Floor/2 Table)
-        product_id: 40321981
+        product_id: '40321981'
         sku_id: S40321981
         sku_description: These stylish, transitional lamps easily blend into a variety of interiors making it easy to beautifully illuminate any room in your home.
         inventory_type: CONTINUE_SHOPPING
         available_quantity: 10
         barcode: ''
-        price: 249.99000000000001
+        price: 249.99
         currency: ''
         discount: 0.11
-        total_price: 249.99000000000001
+        total_price: 249.99
         attributes: ''
         image:
         - http://s7d9.scene7.com/is/image/BedBathandBeyond/21270040321981p?qlt=85,1&op_sharpen=1&resMode=bilin&id=NG0Tv2&hei=1198&wid=1198&fmt=png-alpha
@@ -3717,16 +3717,16 @@ definitions:
         expiry_date: 1498208912
         product_url: /products/40321981
       - name: Riviera Table Lamp (Set of 2)
-        product_id: 40321974
+        product_id: '40321974'
         sku_id: S40321974
         sku_description: This dignified lamp set features a faux brown marble accents and a cima gold finish for some upscale flare. Crafted of metal and resin with faux silk fabric soft bell shape, beige shade.
         inventory_type: CONTINUE_SHOPPING
         available_quantity: 10
         barcode: ''
-        price: 158.99000000000001
+        price: 158.99
         currency: ''
-        discount: 0.17999999999999999
-        total_price: 158.99000000000001
+        discount: 0.18
+        total_price: 158.99
         attributes: ''
         image:
         - http://s7d9.scene7.com/is/image/BedBathandBeyond/21269940321974p?qlt=85,1&op_sharpen=1&resMode=bilin&id=U8QSH1&hei=1198&wid=1198&fmt=png-alpha
@@ -3745,16 +3745,16 @@ definitions:
     title: SkusList
     example:
       name: Turkish Ribbed Bath Towels, 100% Cotton
-      product_id: 129575
+      product_id: '129575'
       sku_id: S129575
       sku_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
       inventory_type: CONTINUE_SHOPPING
       available_quantity: 10
       barcode: ''
-      price: 29.989999999999998
+      price: 29.99
       currency: ''
       discount: 0.13
-      total_price: 29.989999999999998
+      total_price: 29.99
       attributes: ''
       image:
       - http://s7d9.scene7.com/is/image/BedBathandBeyond/262528129575c?qlt=85,1&op_sharpen=1&resMode=bilin&id=0I3TR2&hei=1198&wid=1198&fmt=png-alpha
@@ -3826,7 +3826,7 @@ definitions:
       cart_details:
         session_id: ddsd-ssd-sd-sds
         cart_items:
-        - quantity: 3
+        - quantity: '3'
           sku_id: S1368433309753
     type: object
     properties:
@@ -3839,7 +3839,7 @@ definitions:
     example:
       session_id: ddsd-ssd-sd-sds
       cart_items:
-      - quantity: 3
+      - quantity: '3'
         sku_id: S1368433309753
     type: object
     properties:
@@ -3855,7 +3855,7 @@ definitions:
   CartItem1:
     title: CartItem1
     example:
-      quantity: 3
+      quantity: '3'
       sku_id: S1368433309753
     type: object
     properties:
@@ -3871,7 +3871,7 @@ definitions:
     example:
       session_id: ddsd-ssd-sd-sds
       cart_items:
-      - quantity: 3
+      - quantity: '3'
         sku_id: S1368433309753
       created_at: 1492532089603
       updated_at: 1517415014058
@@ -3932,7 +3932,7 @@ definitions:
     example:
       session_id: 20:13:08
       cart_items:
-      - quantity: 1
+      - quantity: '1'
         sku_id: S40330686
       created_at: 1517343204204
       updated_at: 1517415005593
@@ -4038,7 +4038,7 @@ definitions:
         address1: C303
         locality: Palava
         name: Himesh
-        phone_number: 9664726776
+        phone_number: '9664726776'
         state: Maharashtra
         email: himesh.rupareliya@gmail.com
       cart_id: 871263d5-2fd8-11e7-9fee-0ad881f403bf
@@ -4091,7 +4091,7 @@ definitions:
       address1: C303
       locality: Palava
       name: Himesh
-      phone_number: 9664726776
+      phone_number: '9664726776'
       state: Maharashtra
       email: himesh.rupareliya@gmail.com
     type: object
@@ -4149,14 +4149,14 @@ definitions:
         created: 1517414601477
         modified: 1517414601477
         bill_to:
-          zip: 455445
+          zip: '455445'
           country: In
           address2: Address 2
           city: Pune
           address1: Address 1
           locality: India
           name: Juju
-          phone_number: 9888998888
+          phone_number: '9888998888'
           state: GH
           email: ju@gmail.com
         cart_id: 9f482b30-0699-11e8-982c-0ab8741a129c
@@ -4172,14 +4172,14 @@ definitions:
         created: 1517414096074
         modified: 1517414096074
         bill_to:
-          zip: 664546
+          zip: '664546'
           country: US
           address2: UK
           city: SA
           address1: USA
           locality: CA
           name: Tony
-          phone_number: 646464646
+          phone_number: '646464646'
           state: CA
           email: gagagag@gmail.com
         cart_id: d62d913d-069e-11e8-8748-0aa492e6e508
@@ -4195,14 +4195,14 @@ definitions:
         created: 1517409210606
         modified: 1517409210606
         bill_to:
-          zip: 1212
+          zip: '1212'
           country: asdsad
           address2: asdsads
           city: dsadsa
           address1: asdsa
           locality: dsadsa
           name: adnan
-          phone_number: 12345678
+          phone_number: '12345678'
           state: sadsadsa
           email: test@test.com
         cart_id: 94226003-0693-11e8-a68e-0eec2415f3df
@@ -4228,14 +4228,14 @@ definitions:
         created: 1517404197698
         modified: 1517404197698
         bill_to:
-          zip: 7677
+          zip: '7677'
           country: SADSA
           address2: akjshkkjAH
           city: SASAD
           address1: DSADSADH
           locality: ASDAD
           name: Sagar
-          phone_number: 7677767
+          phone_number: '7677767'
           state: SASADSA
           email: sgsgs2GG.CO
         cart_id: e082575e-0687-11e8-8b59-12c1e35638f0
@@ -4267,14 +4267,14 @@ definitions:
       created: 1517414601477
       modified: 1517414601477
       bill_to:
-        zip: 455445
+        zip: '455445'
         country: In
         address2: Address 2
         city: Pune
         address1: Address 1
         locality: India
         name: Juju
-        phone_number: 9888998888
+        phone_number: '9888998888'
         state: GH
         email: ju@gmail.com
       cart_id: 9f482b30-0699-11e8-982c-0ab8741a129c
@@ -4323,14 +4323,14 @@ definitions:
   BillTo1:
     title: BillTo1
     example:
-      zip: 455445
+      zip: '455445'
       country: In
       address2: Address 2
       city: Pune
       address1: Address 1
       locality: India
       name: Juju
-      phone_number: 9888998888
+      phone_number: '9888998888'
       state: GH
       email: ju@gmail.com
     type: object
@@ -4372,9 +4372,9 @@ definitions:
       GetFlightInfoResponse:
         flightsInfo:
           INFOBJ_FLIGHT:
-          - URNO: 649926177
+          - URNO: '649926177'
             ADID: A
-            SIBT: 20180131120500
+            SIBT: '20180131120500'
             SOBT: ''
             FLNO: EK 902
             CSGN: UAE902
@@ -4386,18 +4386,18 @@ definitions:
             FLNS: ''
             REGN: ''
             RKEY: '649926177 '
-            ETOA: 20180131120500
-            EIBT: 20180131120500
+            ETOA: '20180131120500'
+            EIBT: '20180131120500'
             ETAU: ''
             EIBN: ''
-            ETAA: 20180131120500
+            ETAA: '20180131120500'
             ETAE: ''
             DES3: DXB
             DES4: OMDB
             ORG3: AMM
             ORG4: OJAI
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -4407,8 +4407,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131120500
-            PAES: 20180131123500
+            PABS: '20180131120500'
+            PAES: '20180131123500'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -4439,11 +4439,11 @@ definitions:
             AIBT: ''
             ONBU: ''
             ONBD: ''
-            ETOD: 20180131091500
-            EOBT: 20180131091500
+            ETOD: '20180131091500'
+            EOBT: '20180131091500'
             ETDU: ''
             EOBN: ''
-            ETDA: 20180131091500
+            ETDA: '20180131091500'
             ETDE: ''
             PSTD: ''
             PDBS: ''
@@ -4478,7 +4478,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 3
+            STEV: '3'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -4487,7 +4487,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -4513,9 +4513,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 216645138
+          - URNO: '216645138'
             ADID: A
-            SIBT: 20180131120000
+            SIBT: '20180131120000'
             SOBT: ''
             FLNO: IX 435
             CSGN: AXB435
@@ -4538,7 +4538,7 @@ definitions:
             ORG3: COK
             ORG4: VOCI
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -4548,8 +4548,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131120000
-            PAES: 20180131123000
+            PABS: '20180131120000'
+            PAES: '20180131123000'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -4619,7 +4619,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 2
+            STEV: '2'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -4628,7 +4628,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -4654,9 +4654,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 29806083
+          - URNO: '29806083'
             ADID: A
-            SIBT: 20180131120000
+            SIBT: '20180131120000'
             SOBT: ''
             FLNO: IX 141
             CSGN: AXB141
@@ -4679,7 +4679,7 @@ definitions:
             ORG3: DEL
             ORG4: VIDP
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -4689,8 +4689,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131120000
-            PAES: 20180131123000
+            PABS: '20180131120000'
+            PAES: '20180131123000'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -4760,7 +4760,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 2
+            STEV: '2'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -4769,7 +4769,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -4795,9 +4795,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1831890316
+          - URNO: '1831890316'
             ADID: A
-            SIBT: 20180131115500
+            SIBT: '20180131115500'
             SOBT: ''
             FLNO: FZ 4360
             CSGN: FDB4360
@@ -4808,7 +4808,7 @@ definitions:
             ALC3: FDB
             FLNS: ''
             REGN: ''
-            RKEY: 1831890316
+            RKEY: '1831890316'
             ETOA: ''
             EIBT: ''
             ETAU: ''
@@ -4820,7 +4820,7 @@ definitions:
             ORG3: KDH
             ORG4: OAKN
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -4830,8 +4830,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131115500
-            PAES: 20180131122500
+            PABS: '20180131115500'
+            PAES: '20180131122500'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -4901,7 +4901,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 2
+            STEV: '2'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -4910,7 +4910,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -4936,9 +4936,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 758913719
+          - URNO: '758913719'
             ADID: A
-            SIBT: 20180131112500
+            SIBT: '20180131112500'
             SOBT: ''
             FLNO: FZ 584
             CSGN: FDB584
@@ -4961,7 +4961,7 @@ definitions:
             ORG3: DAC
             ORG4: VGHS
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -4971,8 +4971,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131112500
-            PAES: 20180131115500
+            PABS: '20180131112500'
+            PAES: '20180131115500'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -5042,7 +5042,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 2
+            STEV: '2'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -5051,7 +5051,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -5077,9 +5077,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 844734119
+          - URNO: '844734119'
             ADID: A
-            SIBT: 20180131120500
+            SIBT: '20180131120500'
             SOBT: ''
             FLNO: UPS003
             CSGN: UPS003
@@ -5102,7 +5102,7 @@ definitions:
             ORG3: HKG
             ORG4: VHHH
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -5112,8 +5112,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131120500
-            PAES: 20180131130230
+            PABS: '20180131120500'
+            PAES: '20180131130230'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -5192,7 +5192,7 @@ definitions:
             TTYP: CS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -5218,9 +5218,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1330686431
+          - URNO: '1330686431'
             ADID: A
-            SIBT: 20180131114500
+            SIBT: '20180131114500'
             SOBT: ''
             FLNO: FZ 004
             CSGN: FDB004
@@ -5231,7 +5231,7 @@ definitions:
             ALC3: FDB
             FLNS: ''
             REGN: ''
-            RKEY: 1330686431
+            RKEY: '1330686431'
             ETOA: ''
             EIBT: ''
             ETAU: ''
@@ -5243,7 +5243,7 @@ definitions:
             ORG3: DOH
             ORG4: OTHH
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -5253,8 +5253,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131114500
-            PAES: 20180131121500
+            PABS: '20180131114500'
+            PAES: '20180131121500'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -5324,7 +5324,7 @@ definitions:
             AIRA: ''
             FTYP: N
             EETT: ''
-            STEV: 2
+            STEV: '2'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -5333,7 +5333,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -5359,20 +5359,20 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1928472409
+          - URNO: '1928472409'
             ADID: A
-            SIBT: 20180131115500
+            SIBT: '20180131115500'
             SOBT: ''
             FLNO: RB 515
             CSGN: SYR515
             SEAS: W17
-            ACT3: 343
+            ACT3: '343'
             ACT5: A343
             ALC2: RB
             ALC3: SYR
             FLNS: ''
             REGN: ''
-            RKEY: 1928472409
+            RKEY: '1928472409'
             ETOA: ''
             EIBT: ''
             ETAU: ''
@@ -5384,7 +5384,7 @@ definitions:
             ORG3: DAM
             ORG4: OSDI
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -5394,8 +5394,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131115500
-            PAES: 20180131124000
+            PABS: '20180131115500'
+            PAES: '20180131124000'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -5465,7 +5465,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 1
+            STEV: '1'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -5474,7 +5474,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -5500,20 +5500,20 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1138183840
+          - URNO: '1138183840'
             ADID: A
-            SIBT: 20180131111500
+            SIBT: '20180131111500'
             SOBT: ''
             FLNO: EK 5417
             CSGN: UAE5417
             SEAS: W17
-            ACT3: 388
+            ACT3: '388'
             ACT5: A388
             ALC2: EK
             ALC3: UAE
             FLNS: ''
             REGN: ''
-            RKEY: 1138183840
+            RKEY: '1138183840'
             ETOA: ''
             EIBT: ''
             ETAU: ''
@@ -5525,7 +5525,7 @@ definitions:
             ORG3: SYD
             ORG4: YSSY
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -5535,8 +5535,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131111500
-            PAES: 20180131114500
+            PABS: '20180131111500'
+            PAES: '20180131114500'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -5606,7 +5606,7 @@ definitions:
             AIRA: ''
             FTYP: N
             EETT: ''
-            STEV: 3
+            STEV: '3'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -5615,7 +5615,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -5641,9 +5641,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 675371451
+          - URNO: '675371451'
             ADID: A
-            SIBT: 20180131120000
+            SIBT: '20180131120000'
             SOBT: ''
             FLNO: SV 588
             CSGN: SVA588
@@ -5666,7 +5666,7 @@ definitions:
             ORG3: JED
             ORG4: OEJN
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -5676,8 +5676,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131120000
-            PAES: 20180131124500
+            PABS: '20180131120000'
+            PAES: '20180131124500'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -5747,7 +5747,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 1
+            STEV: '1'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -5756,7 +5756,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -5782,9 +5782,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1285394376
+          - URNO: '1285394376'
             ADID: A
-            SIBT: 20180131114500
+            SIBT: '20180131114500'
             SOBT: ''
             FLNO: ET 602
             CSGN: ETH602
@@ -5795,7 +5795,7 @@ definitions:
             ALC3: ETH
             FLNS: ''
             REGN: ''
-            RKEY: 1285394376
+            RKEY: '1285394376'
             ETOA: ''
             EIBT: ''
             ETAU: ''
@@ -5807,7 +5807,7 @@ definitions:
             ORG3: ADD
             ORG4: HAAB
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -5817,8 +5817,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131114500
-            PAES: 20180131122730
+            PABS: '20180131114500'
+            PAES: '20180131122730'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -5888,7 +5888,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 1
+            STEV: '1'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -5897,7 +5897,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -5923,9 +5923,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1441625012
+          - URNO: '1441625012'
             ADID: A
-            SIBT: 20180131115500
+            SIBT: '20180131115500'
             SOBT: ''
             FLNO: QB 2200
             CSGN: QSM2200
@@ -5936,7 +5936,7 @@ definitions:
             ALC3: QSM
             FLNS: ''
             REGN: ''
-            RKEY: 1441625012
+            RKEY: '1441625012'
             ETOA: ''
             EIBT: ''
             ETAU: ''
@@ -5948,7 +5948,7 @@ definitions:
             ORG3: GSM
             ORG4: OIKQ
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -5958,8 +5958,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131115500
-            PAES: 20180131122730
+            PABS: '20180131115500'
+            PAES: '20180131122730'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -6029,7 +6029,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 2
+            STEV: '2'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -6038,7 +6038,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -6064,10 +6064,10 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1251741354
+          - URNO: '1251741354'
             ADID: A
-            SIBT: 20180131111500
-            SOBT: 20180131055000
+            SIBT: '20180131111500'
+            SOBT: '20180131055000'
             FLNO: EK 583
             CSGN: UAE583
             SEAS: W17
@@ -6077,19 +6077,19 @@ definitions:
             ALC3: UAE
             FLNS: ''
             REGN: ''
-            RKEY: 1251741354
-            ETOA: 20180131111500
-            EIBT: 20180131111500
+            RKEY: '1251741354'
+            ETOA: '20180131111500'
+            EIBT: '20180131111500'
             ETAU: ''
             EIBN: ''
-            ETAA: 20180131111500
+            ETAA: '20180131111500'
             ETAE: ''
             DES3: DXB
             DES4: OMDB
             ORG3: DAC
             ORG4: VGHS
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -6099,8 +6099,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131111500
-            PAES: 20180131114500
+            PABS: '20180131111500'
+            PAES: '20180131114500'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -6131,11 +6131,11 @@ definitions:
             AIBT: ''
             ONBU: ''
             ONBD: ''
-            ETOD: 20180131055000
-            EOBT: 20180131055000
+            ETOD: '20180131055000'
+            EOBT: '20180131055000'
             ETDU: ''
             EOBN: ''
-            ETDA: 20180131055000
+            ETDA: '20180131055000'
             ETDE: ''
             PSTD: ''
             PDBS: ''
@@ -6170,7 +6170,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 3
+            STEV: '3'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -6179,7 +6179,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -6205,9 +6205,9 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1393162571
+          - URNO: '1393162571'
             ADID: A
-            SIBT: 20180131113000
+            SIBT: '20180131113000'
             SOBT: ''
             FLNO: FZ 832
             CSGN: FDB832
@@ -6218,7 +6218,7 @@ definitions:
             ALC3: FDB
             FLNS: ''
             REGN: ''
-            RKEY: 1393162571
+            RKEY: '1393162571'
             ETOA: ''
             EIBT: ''
             ETAU: ''
@@ -6230,7 +6230,7 @@ definitions:
             ORG3: JED
             ORG4: OEJN
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -6240,8 +6240,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131113000
-            PAES: 20180131120000
+            PABS: '20180131113000'
+            PAES: '20180131120000'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -6311,7 +6311,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 2
+            STEV: '2'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -6320,7 +6320,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -6346,20 +6346,20 @@ definitions:
             YBAC: ''
             YBOB: ''
             YFBG: ''
-          - URNO: 1244246193
+          - URNO: '1244246193'
             ADID: A
-            SIBT: 20180131113500
+            SIBT: '20180131113500'
             SOBT: ''
             FLNO: WY 609
             CSGN: OMA609
             SEAS: W17
-            ACT3: 738
+            ACT3: '738'
             ACT5: B738
             ALC2: WY
             ALC3: OMA
             FLNS: ''
             REGN: ''
-            RKEY: 1244246193
+            RKEY: '1244246193'
             ETOA: ''
             EIBT: ''
             ETAU: ''
@@ -6371,7 +6371,7 @@ definitions:
             ORG3: MCT
             ORG4: OOMS
             REMP: ''
-            VIAN: 0
+            VIAN: '0'
             VIAL: ''
             ELDT: ''
             TMOA: ''
@@ -6381,8 +6381,8 @@ definitions:
             LNDU: ''
             LNDD: ''
             PSTA: ''
-            PABS: 20180131113500
-            PAES: 20180131122500
+            PABS: '20180131113500'
+            PAES: '20180131122500'
             PABA: ''
             PAEA: ''
             GTA1: ''
@@ -6452,7 +6452,7 @@ definitions:
             AIRA: ''
             FTYP: S
             EETT: ''
-            STEV: 1
+            STEV: '1'
             CONC: ''
             HTYP: CO
             JCNT: ''
@@ -6461,7 +6461,7 @@ definitions:
             TTYP: PS
             TOBT: ''
             TPAX: ''
-            WCHR: 0
+            WCHR: '0'
             FPAH: ''
             FPAC: ''
             FPOB: ''
@@ -6498,9 +6498,9 @@ definitions:
     example:
       flightsInfo:
         INFOBJ_FLIGHT:
-        - URNO: 649926177
+        - URNO: '649926177'
           ADID: A
-          SIBT: 20180131120500
+          SIBT: '20180131120500'
           SOBT: ''
           FLNO: EK 902
           CSGN: UAE902
@@ -6512,18 +6512,18 @@ definitions:
           FLNS: ''
           REGN: ''
           RKEY: '649926177 '
-          ETOA: 20180131120500
-          EIBT: 20180131120500
+          ETOA: '20180131120500'
+          EIBT: '20180131120500'
           ETAU: ''
           EIBN: ''
-          ETAA: 20180131120500
+          ETAA: '20180131120500'
           ETAE: ''
           DES3: DXB
           DES4: OMDB
           ORG3: AMM
           ORG4: OJAI
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -6533,8 +6533,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131120500
-          PAES: 20180131123500
+          PABS: '20180131120500'
+          PAES: '20180131123500'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -6565,11 +6565,11 @@ definitions:
           AIBT: ''
           ONBU: ''
           ONBD: ''
-          ETOD: 20180131091500
-          EOBT: 20180131091500
+          ETOD: '20180131091500'
+          EOBT: '20180131091500'
           ETDU: ''
           EOBN: ''
-          ETDA: 20180131091500
+          ETDA: '20180131091500'
           ETDE: ''
           PSTD: ''
           PDBS: ''
@@ -6604,7 +6604,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 3
+          STEV: '3'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -6613,7 +6613,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -6639,9 +6639,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 216645138
+        - URNO: '216645138'
           ADID: A
-          SIBT: 20180131120000
+          SIBT: '20180131120000'
           SOBT: ''
           FLNO: IX 435
           CSGN: AXB435
@@ -6664,7 +6664,7 @@ definitions:
           ORG3: COK
           ORG4: VOCI
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -6674,8 +6674,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131120000
-          PAES: 20180131123000
+          PABS: '20180131120000'
+          PAES: '20180131123000'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -6745,7 +6745,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 2
+          STEV: '2'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -6754,7 +6754,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -6780,9 +6780,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 29806083
+        - URNO: '29806083'
           ADID: A
-          SIBT: 20180131120000
+          SIBT: '20180131120000'
           SOBT: ''
           FLNO: IX 141
           CSGN: AXB141
@@ -6805,7 +6805,7 @@ definitions:
           ORG3: DEL
           ORG4: VIDP
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -6815,8 +6815,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131120000
-          PAES: 20180131123000
+          PABS: '20180131120000'
+          PAES: '20180131123000'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -6886,7 +6886,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 2
+          STEV: '2'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -6895,7 +6895,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -6921,9 +6921,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1831890316
+        - URNO: '1831890316'
           ADID: A
-          SIBT: 20180131115500
+          SIBT: '20180131115500'
           SOBT: ''
           FLNO: FZ 4360
           CSGN: FDB4360
@@ -6934,7 +6934,7 @@ definitions:
           ALC3: FDB
           FLNS: ''
           REGN: ''
-          RKEY: 1831890316
+          RKEY: '1831890316'
           ETOA: ''
           EIBT: ''
           ETAU: ''
@@ -6946,7 +6946,7 @@ definitions:
           ORG3: KDH
           ORG4: OAKN
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -6956,8 +6956,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131115500
-          PAES: 20180131122500
+          PABS: '20180131115500'
+          PAES: '20180131122500'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -7027,7 +7027,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 2
+          STEV: '2'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -7036,7 +7036,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -7062,9 +7062,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 758913719
+        - URNO: '758913719'
           ADID: A
-          SIBT: 20180131112500
+          SIBT: '20180131112500'
           SOBT: ''
           FLNO: FZ 584
           CSGN: FDB584
@@ -7087,7 +7087,7 @@ definitions:
           ORG3: DAC
           ORG4: VGHS
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -7097,8 +7097,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131112500
-          PAES: 20180131115500
+          PABS: '20180131112500'
+          PAES: '20180131115500'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -7168,7 +7168,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 2
+          STEV: '2'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -7177,7 +7177,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -7203,9 +7203,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 844734119
+        - URNO: '844734119'
           ADID: A
-          SIBT: 20180131120500
+          SIBT: '20180131120500'
           SOBT: ''
           FLNO: UPS003
           CSGN: UPS003
@@ -7228,7 +7228,7 @@ definitions:
           ORG3: HKG
           ORG4: VHHH
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -7238,8 +7238,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131120500
-          PAES: 20180131130230
+          PABS: '20180131120500'
+          PAES: '20180131130230'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -7318,7 +7318,7 @@ definitions:
           TTYP: CS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -7344,9 +7344,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1330686431
+        - URNO: '1330686431'
           ADID: A
-          SIBT: 20180131114500
+          SIBT: '20180131114500'
           SOBT: ''
           FLNO: FZ 004
           CSGN: FDB004
@@ -7357,7 +7357,7 @@ definitions:
           ALC3: FDB
           FLNS: ''
           REGN: ''
-          RKEY: 1330686431
+          RKEY: '1330686431'
           ETOA: ''
           EIBT: ''
           ETAU: ''
@@ -7369,7 +7369,7 @@ definitions:
           ORG3: DOH
           ORG4: OTHH
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -7379,8 +7379,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131114500
-          PAES: 20180131121500
+          PABS: '20180131114500'
+          PAES: '20180131121500'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -7450,7 +7450,7 @@ definitions:
           AIRA: ''
           FTYP: N
           EETT: ''
-          STEV: 2
+          STEV: '2'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -7459,7 +7459,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -7485,20 +7485,20 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1928472409
+        - URNO: '1928472409'
           ADID: A
-          SIBT: 20180131115500
+          SIBT: '20180131115500'
           SOBT: ''
           FLNO: RB 515
           CSGN: SYR515
           SEAS: W17
-          ACT3: 343
+          ACT3: '343'
           ACT5: A343
           ALC2: RB
           ALC3: SYR
           FLNS: ''
           REGN: ''
-          RKEY: 1928472409
+          RKEY: '1928472409'
           ETOA: ''
           EIBT: ''
           ETAU: ''
@@ -7510,7 +7510,7 @@ definitions:
           ORG3: DAM
           ORG4: OSDI
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -7520,8 +7520,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131115500
-          PAES: 20180131124000
+          PABS: '20180131115500'
+          PAES: '20180131124000'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -7591,7 +7591,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 1
+          STEV: '1'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -7600,7 +7600,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -7626,20 +7626,20 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1138183840
+        - URNO: '1138183840'
           ADID: A
-          SIBT: 20180131111500
+          SIBT: '20180131111500'
           SOBT: ''
           FLNO: EK 5417
           CSGN: UAE5417
           SEAS: W17
-          ACT3: 388
+          ACT3: '388'
           ACT5: A388
           ALC2: EK
           ALC3: UAE
           FLNS: ''
           REGN: ''
-          RKEY: 1138183840
+          RKEY: '1138183840'
           ETOA: ''
           EIBT: ''
           ETAU: ''
@@ -7651,7 +7651,7 @@ definitions:
           ORG3: SYD
           ORG4: YSSY
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -7661,8 +7661,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131111500
-          PAES: 20180131114500
+          PABS: '20180131111500'
+          PAES: '20180131114500'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -7732,7 +7732,7 @@ definitions:
           AIRA: ''
           FTYP: N
           EETT: ''
-          STEV: 3
+          STEV: '3'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -7741,7 +7741,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -7767,9 +7767,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 675371451
+        - URNO: '675371451'
           ADID: A
-          SIBT: 20180131120000
+          SIBT: '20180131120000'
           SOBT: ''
           FLNO: SV 588
           CSGN: SVA588
@@ -7792,7 +7792,7 @@ definitions:
           ORG3: JED
           ORG4: OEJN
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -7802,8 +7802,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131120000
-          PAES: 20180131124500
+          PABS: '20180131120000'
+          PAES: '20180131124500'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -7873,7 +7873,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 1
+          STEV: '1'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -7882,7 +7882,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -7908,9 +7908,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1285394376
+        - URNO: '1285394376'
           ADID: A
-          SIBT: 20180131114500
+          SIBT: '20180131114500'
           SOBT: ''
           FLNO: ET 602
           CSGN: ETH602
@@ -7921,7 +7921,7 @@ definitions:
           ALC3: ETH
           FLNS: ''
           REGN: ''
-          RKEY: 1285394376
+          RKEY: '1285394376'
           ETOA: ''
           EIBT: ''
           ETAU: ''
@@ -7933,7 +7933,7 @@ definitions:
           ORG3: ADD
           ORG4: HAAB
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -7943,8 +7943,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131114500
-          PAES: 20180131122730
+          PABS: '20180131114500'
+          PAES: '20180131122730'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -8014,7 +8014,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 1
+          STEV: '1'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -8023,7 +8023,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -8049,9 +8049,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1441625012
+        - URNO: '1441625012'
           ADID: A
-          SIBT: 20180131115500
+          SIBT: '20180131115500'
           SOBT: ''
           FLNO: QB 2200
           CSGN: QSM2200
@@ -8062,7 +8062,7 @@ definitions:
           ALC3: QSM
           FLNS: ''
           REGN: ''
-          RKEY: 1441625012
+          RKEY: '1441625012'
           ETOA: ''
           EIBT: ''
           ETAU: ''
@@ -8074,7 +8074,7 @@ definitions:
           ORG3: GSM
           ORG4: OIKQ
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -8084,8 +8084,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131115500
-          PAES: 20180131122730
+          PABS: '20180131115500'
+          PAES: '20180131122730'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -8155,7 +8155,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 2
+          STEV: '2'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -8164,7 +8164,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -8190,10 +8190,10 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1251741354
+        - URNO: '1251741354'
           ADID: A
-          SIBT: 20180131111500
-          SOBT: 20180131055000
+          SIBT: '20180131111500'
+          SOBT: '20180131055000'
           FLNO: EK 583
           CSGN: UAE583
           SEAS: W17
@@ -8203,19 +8203,19 @@ definitions:
           ALC3: UAE
           FLNS: ''
           REGN: ''
-          RKEY: 1251741354
-          ETOA: 20180131111500
-          EIBT: 20180131111500
+          RKEY: '1251741354'
+          ETOA: '20180131111500'
+          EIBT: '20180131111500'
           ETAU: ''
           EIBN: ''
-          ETAA: 20180131111500
+          ETAA: '20180131111500'
           ETAE: ''
           DES3: DXB
           DES4: OMDB
           ORG3: DAC
           ORG4: VGHS
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -8225,8 +8225,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131111500
-          PAES: 20180131114500
+          PABS: '20180131111500'
+          PAES: '20180131114500'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -8257,11 +8257,11 @@ definitions:
           AIBT: ''
           ONBU: ''
           ONBD: ''
-          ETOD: 20180131055000
-          EOBT: 20180131055000
+          ETOD: '20180131055000'
+          EOBT: '20180131055000'
           ETDU: ''
           EOBN: ''
-          ETDA: 20180131055000
+          ETDA: '20180131055000'
           ETDE: ''
           PSTD: ''
           PDBS: ''
@@ -8296,7 +8296,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 3
+          STEV: '3'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -8305,7 +8305,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -8331,9 +8331,9 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1393162571
+        - URNO: '1393162571'
           ADID: A
-          SIBT: 20180131113000
+          SIBT: '20180131113000'
           SOBT: ''
           FLNO: FZ 832
           CSGN: FDB832
@@ -8344,7 +8344,7 @@ definitions:
           ALC3: FDB
           FLNS: ''
           REGN: ''
-          RKEY: 1393162571
+          RKEY: '1393162571'
           ETOA: ''
           EIBT: ''
           ETAU: ''
@@ -8356,7 +8356,7 @@ definitions:
           ORG3: JED
           ORG4: OEJN
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -8366,8 +8366,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131113000
-          PAES: 20180131120000
+          PABS: '20180131113000'
+          PAES: '20180131120000'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -8437,7 +8437,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 2
+          STEV: '2'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -8446,7 +8446,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -8472,20 +8472,20 @@ definitions:
           YBAC: ''
           YBOB: ''
           YFBG: ''
-        - URNO: 1244246193
+        - URNO: '1244246193'
           ADID: A
-          SIBT: 20180131113500
+          SIBT: '20180131113500'
           SOBT: ''
           FLNO: WY 609
           CSGN: OMA609
           SEAS: W17
-          ACT3: 738
+          ACT3: '738'
           ACT5: B738
           ALC2: WY
           ALC3: OMA
           FLNS: ''
           REGN: ''
-          RKEY: 1244246193
+          RKEY: '1244246193'
           ETOA: ''
           EIBT: ''
           ETAU: ''
@@ -8497,7 +8497,7 @@ definitions:
           ORG3: MCT
           ORG4: OOMS
           REMP: ''
-          VIAN: 0
+          VIAN: '0'
           VIAL: ''
           ELDT: ''
           TMOA: ''
@@ -8507,8 +8507,8 @@ definitions:
           LNDU: ''
           LNDD: ''
           PSTA: ''
-          PABS: 20180131113500
-          PAES: 20180131122500
+          PABS: '20180131113500'
+          PAES: '20180131122500'
           PABA: ''
           PAEA: ''
           GTA1: ''
@@ -8578,7 +8578,7 @@ definitions:
           AIRA: ''
           FTYP: S
           EETT: ''
-          STEV: 1
+          STEV: '1'
           CONC: ''
           HTYP: CO
           JCNT: ''
@@ -8587,7 +8587,7 @@ definitions:
           TTYP: PS
           TOBT: ''
           TPAX: ''
-          WCHR: 0
+          WCHR: '0'
           FPAH: ''
           FPAC: ''
           FPOB: ''
@@ -8623,9 +8623,9 @@ definitions:
     title: FlightsInfo
     example:
       INFOBJ_FLIGHT:
-      - URNO: 649926177
+      - URNO: '649926177'
         ADID: A
-        SIBT: 20180131120500
+        SIBT: '20180131120500'
         SOBT: ''
         FLNO: EK 902
         CSGN: UAE902
@@ -8637,18 +8637,18 @@ definitions:
         FLNS: ''
         REGN: ''
         RKEY: '649926177 '
-        ETOA: 20180131120500
-        EIBT: 20180131120500
+        ETOA: '20180131120500'
+        EIBT: '20180131120500'
         ETAU: ''
         EIBN: ''
-        ETAA: 20180131120500
+        ETAA: '20180131120500'
         ETAE: ''
         DES3: DXB
         DES4: OMDB
         ORG3: AMM
         ORG4: OJAI
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -8658,8 +8658,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131120500
-        PAES: 20180131123500
+        PABS: '20180131120500'
+        PAES: '20180131123500'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -8690,11 +8690,11 @@ definitions:
         AIBT: ''
         ONBU: ''
         ONBD: ''
-        ETOD: 20180131091500
-        EOBT: 20180131091500
+        ETOD: '20180131091500'
+        EOBT: '20180131091500'
         ETDU: ''
         EOBN: ''
-        ETDA: 20180131091500
+        ETDA: '20180131091500'
         ETDE: ''
         PSTD: ''
         PDBS: ''
@@ -8729,7 +8729,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 3
+        STEV: '3'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -8738,7 +8738,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -8764,9 +8764,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 216645138
+      - URNO: '216645138'
         ADID: A
-        SIBT: 20180131120000
+        SIBT: '20180131120000'
         SOBT: ''
         FLNO: IX 435
         CSGN: AXB435
@@ -8789,7 +8789,7 @@ definitions:
         ORG3: COK
         ORG4: VOCI
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -8799,8 +8799,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131120000
-        PAES: 20180131123000
+        PABS: '20180131120000'
+        PAES: '20180131123000'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -8870,7 +8870,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 2
+        STEV: '2'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -8879,7 +8879,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -8905,9 +8905,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 29806083
+      - URNO: '29806083'
         ADID: A
-        SIBT: 20180131120000
+        SIBT: '20180131120000'
         SOBT: ''
         FLNO: IX 141
         CSGN: AXB141
@@ -8930,7 +8930,7 @@ definitions:
         ORG3: DEL
         ORG4: VIDP
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -8940,8 +8940,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131120000
-        PAES: 20180131123000
+        PABS: '20180131120000'
+        PAES: '20180131123000'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -9011,7 +9011,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 2
+        STEV: '2'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -9020,7 +9020,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -9046,9 +9046,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1831890316
+      - URNO: '1831890316'
         ADID: A
-        SIBT: 20180131115500
+        SIBT: '20180131115500'
         SOBT: ''
         FLNO: FZ 4360
         CSGN: FDB4360
@@ -9059,7 +9059,7 @@ definitions:
         ALC3: FDB
         FLNS: ''
         REGN: ''
-        RKEY: 1831890316
+        RKEY: '1831890316'
         ETOA: ''
         EIBT: ''
         ETAU: ''
@@ -9071,7 +9071,7 @@ definitions:
         ORG3: KDH
         ORG4: OAKN
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -9081,8 +9081,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131115500
-        PAES: 20180131122500
+        PABS: '20180131115500'
+        PAES: '20180131122500'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -9152,7 +9152,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 2
+        STEV: '2'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -9161,7 +9161,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -9187,9 +9187,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 758913719
+      - URNO: '758913719'
         ADID: A
-        SIBT: 20180131112500
+        SIBT: '20180131112500'
         SOBT: ''
         FLNO: FZ 584
         CSGN: FDB584
@@ -9212,7 +9212,7 @@ definitions:
         ORG3: DAC
         ORG4: VGHS
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -9222,8 +9222,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131112500
-        PAES: 20180131115500
+        PABS: '20180131112500'
+        PAES: '20180131115500'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -9293,7 +9293,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 2
+        STEV: '2'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -9302,7 +9302,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -9328,9 +9328,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 844734119
+      - URNO: '844734119'
         ADID: A
-        SIBT: 20180131120500
+        SIBT: '20180131120500'
         SOBT: ''
         FLNO: UPS003
         CSGN: UPS003
@@ -9353,7 +9353,7 @@ definitions:
         ORG3: HKG
         ORG4: VHHH
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -9363,8 +9363,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131120500
-        PAES: 20180131130230
+        PABS: '20180131120500'
+        PAES: '20180131130230'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -9443,7 +9443,7 @@ definitions:
         TTYP: CS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -9469,9 +9469,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1330686431
+      - URNO: '1330686431'
         ADID: A
-        SIBT: 20180131114500
+        SIBT: '20180131114500'
         SOBT: ''
         FLNO: FZ 004
         CSGN: FDB004
@@ -9482,7 +9482,7 @@ definitions:
         ALC3: FDB
         FLNS: ''
         REGN: ''
-        RKEY: 1330686431
+        RKEY: '1330686431'
         ETOA: ''
         EIBT: ''
         ETAU: ''
@@ -9494,7 +9494,7 @@ definitions:
         ORG3: DOH
         ORG4: OTHH
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -9504,8 +9504,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131114500
-        PAES: 20180131121500
+        PABS: '20180131114500'
+        PAES: '20180131121500'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -9575,7 +9575,7 @@ definitions:
         AIRA: ''
         FTYP: N
         EETT: ''
-        STEV: 2
+        STEV: '2'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -9584,7 +9584,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -9610,20 +9610,20 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1928472409
+      - URNO: '1928472409'
         ADID: A
-        SIBT: 20180131115500
+        SIBT: '20180131115500'
         SOBT: ''
         FLNO: RB 515
         CSGN: SYR515
         SEAS: W17
-        ACT3: 343
+        ACT3: '343'
         ACT5: A343
         ALC2: RB
         ALC3: SYR
         FLNS: ''
         REGN: ''
-        RKEY: 1928472409
+        RKEY: '1928472409'
         ETOA: ''
         EIBT: ''
         ETAU: ''
@@ -9635,7 +9635,7 @@ definitions:
         ORG3: DAM
         ORG4: OSDI
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -9645,8 +9645,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131115500
-        PAES: 20180131124000
+        PABS: '20180131115500'
+        PAES: '20180131124000'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -9716,7 +9716,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 1
+        STEV: '1'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -9725,7 +9725,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -9751,20 +9751,20 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1138183840
+      - URNO: '1138183840'
         ADID: A
-        SIBT: 20180131111500
+        SIBT: '20180131111500'
         SOBT: ''
         FLNO: EK 5417
         CSGN: UAE5417
         SEAS: W17
-        ACT3: 388
+        ACT3: '388'
         ACT5: A388
         ALC2: EK
         ALC3: UAE
         FLNS: ''
         REGN: ''
-        RKEY: 1138183840
+        RKEY: '1138183840'
         ETOA: ''
         EIBT: ''
         ETAU: ''
@@ -9776,7 +9776,7 @@ definitions:
         ORG3: SYD
         ORG4: YSSY
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -9786,8 +9786,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131111500
-        PAES: 20180131114500
+        PABS: '20180131111500'
+        PAES: '20180131114500'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -9857,7 +9857,7 @@ definitions:
         AIRA: ''
         FTYP: N
         EETT: ''
-        STEV: 3
+        STEV: '3'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -9866,7 +9866,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -9892,9 +9892,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 675371451
+      - URNO: '675371451'
         ADID: A
-        SIBT: 20180131120000
+        SIBT: '20180131120000'
         SOBT: ''
         FLNO: SV 588
         CSGN: SVA588
@@ -9917,7 +9917,7 @@ definitions:
         ORG3: JED
         ORG4: OEJN
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -9927,8 +9927,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131120000
-        PAES: 20180131124500
+        PABS: '20180131120000'
+        PAES: '20180131124500'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -9998,7 +9998,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 1
+        STEV: '1'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -10007,7 +10007,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -10033,9 +10033,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1285394376
+      - URNO: '1285394376'
         ADID: A
-        SIBT: 20180131114500
+        SIBT: '20180131114500'
         SOBT: ''
         FLNO: ET 602
         CSGN: ETH602
@@ -10046,7 +10046,7 @@ definitions:
         ALC3: ETH
         FLNS: ''
         REGN: ''
-        RKEY: 1285394376
+        RKEY: '1285394376'
         ETOA: ''
         EIBT: ''
         ETAU: ''
@@ -10058,7 +10058,7 @@ definitions:
         ORG3: ADD
         ORG4: HAAB
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -10068,8 +10068,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131114500
-        PAES: 20180131122730
+        PABS: '20180131114500'
+        PAES: '20180131122730'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -10139,7 +10139,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 1
+        STEV: '1'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -10148,7 +10148,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -10174,9 +10174,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1441625012
+      - URNO: '1441625012'
         ADID: A
-        SIBT: 20180131115500
+        SIBT: '20180131115500'
         SOBT: ''
         FLNO: QB 2200
         CSGN: QSM2200
@@ -10187,7 +10187,7 @@ definitions:
         ALC3: QSM
         FLNS: ''
         REGN: ''
-        RKEY: 1441625012
+        RKEY: '1441625012'
         ETOA: ''
         EIBT: ''
         ETAU: ''
@@ -10199,7 +10199,7 @@ definitions:
         ORG3: GSM
         ORG4: OIKQ
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -10209,8 +10209,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131115500
-        PAES: 20180131122730
+        PABS: '20180131115500'
+        PAES: '20180131122730'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -10280,7 +10280,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 2
+        STEV: '2'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -10289,7 +10289,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -10315,10 +10315,10 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1251741354
+      - URNO: '1251741354'
         ADID: A
-        SIBT: 20180131111500
-        SOBT: 20180131055000
+        SIBT: '20180131111500'
+        SOBT: '20180131055000'
         FLNO: EK 583
         CSGN: UAE583
         SEAS: W17
@@ -10328,19 +10328,19 @@ definitions:
         ALC3: UAE
         FLNS: ''
         REGN: ''
-        RKEY: 1251741354
-        ETOA: 20180131111500
-        EIBT: 20180131111500
+        RKEY: '1251741354'
+        ETOA: '20180131111500'
+        EIBT: '20180131111500'
         ETAU: ''
         EIBN: ''
-        ETAA: 20180131111500
+        ETAA: '20180131111500'
         ETAE: ''
         DES3: DXB
         DES4: OMDB
         ORG3: DAC
         ORG4: VGHS
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -10350,8 +10350,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131111500
-        PAES: 20180131114500
+        PABS: '20180131111500'
+        PAES: '20180131114500'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -10382,11 +10382,11 @@ definitions:
         AIBT: ''
         ONBU: ''
         ONBD: ''
-        ETOD: 20180131055000
-        EOBT: 20180131055000
+        ETOD: '20180131055000'
+        EOBT: '20180131055000'
         ETDU: ''
         EOBN: ''
-        ETDA: 20180131055000
+        ETDA: '20180131055000'
         ETDE: ''
         PSTD: ''
         PDBS: ''
@@ -10421,7 +10421,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 3
+        STEV: '3'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -10430,7 +10430,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -10456,9 +10456,9 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1393162571
+      - URNO: '1393162571'
         ADID: A
-        SIBT: 20180131113000
+        SIBT: '20180131113000'
         SOBT: ''
         FLNO: FZ 832
         CSGN: FDB832
@@ -10469,7 +10469,7 @@ definitions:
         ALC3: FDB
         FLNS: ''
         REGN: ''
-        RKEY: 1393162571
+        RKEY: '1393162571'
         ETOA: ''
         EIBT: ''
         ETAU: ''
@@ -10481,7 +10481,7 @@ definitions:
         ORG3: JED
         ORG4: OEJN
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -10491,8 +10491,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131113000
-        PAES: 20180131120000
+        PABS: '20180131113000'
+        PAES: '20180131120000'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -10562,7 +10562,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 2
+        STEV: '2'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -10571,7 +10571,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -10597,20 +10597,20 @@ definitions:
         YBAC: ''
         YBOB: ''
         YFBG: ''
-      - URNO: 1244246193
+      - URNO: '1244246193'
         ADID: A
-        SIBT: 20180131113500
+        SIBT: '20180131113500'
         SOBT: ''
         FLNO: WY 609
         CSGN: OMA609
         SEAS: W17
-        ACT3: 738
+        ACT3: '738'
         ACT5: B738
         ALC2: WY
         ALC3: OMA
         FLNS: ''
         REGN: ''
-        RKEY: 1244246193
+        RKEY: '1244246193'
         ETOA: ''
         EIBT: ''
         ETAU: ''
@@ -10622,7 +10622,7 @@ definitions:
         ORG3: MCT
         ORG4: OOMS
         REMP: ''
-        VIAN: 0
+        VIAN: '0'
         VIAL: ''
         ELDT: ''
         TMOA: ''
@@ -10632,8 +10632,8 @@ definitions:
         LNDU: ''
         LNDD: ''
         PSTA: ''
-        PABS: 20180131113500
-        PAES: 20180131122500
+        PABS: '20180131113500'
+        PAES: '20180131122500'
         PABA: ''
         PAEA: ''
         GTA1: ''
@@ -10703,7 +10703,7 @@ definitions:
         AIRA: ''
         FTYP: S
         EETT: ''
-        STEV: 1
+        STEV: '1'
         CONC: ''
         HTYP: CO
         JCNT: ''
@@ -10712,7 +10712,7 @@ definitions:
         TTYP: PS
         TOBT: ''
         TPAX: ''
-        WCHR: 0
+        WCHR: '0'
         FPAH: ''
         FPAC: ''
         FPOB: ''
@@ -10749,9 +10749,9 @@ definitions:
   INFOBJFLIGHT:
     title: INFOBJFLIGHT
     example:
-      URNO: 649926177
+      URNO: '649926177'
       ADID: A
-      SIBT: 20180131120500
+      SIBT: '20180131120500'
       SOBT: ''
       FLNO: EK 902
       CSGN: UAE902
@@ -10763,18 +10763,18 @@ definitions:
       FLNS: ''
       REGN: ''
       RKEY: '649926177 '
-      ETOA: 20180131120500
-      EIBT: 20180131120500
+      ETOA: '20180131120500'
+      EIBT: '20180131120500'
       ETAU: ''
       EIBN: ''
-      ETAA: 20180131120500
+      ETAA: '20180131120500'
       ETAE: ''
       DES3: DXB
       DES4: OMDB
       ORG3: AMM
       ORG4: OJAI
       REMP: ''
-      VIAN: 0
+      VIAN: '0'
       VIAL: ''
       ELDT: ''
       TMOA: ''
@@ -10784,8 +10784,8 @@ definitions:
       LNDU: ''
       LNDD: ''
       PSTA: ''
-      PABS: 20180131120500
-      PAES: 20180131123500
+      PABS: '20180131120500'
+      PAES: '20180131123500'
       PABA: ''
       PAEA: ''
       GTA1: ''
@@ -10816,11 +10816,11 @@ definitions:
       AIBT: ''
       ONBU: ''
       ONBD: ''
-      ETOD: 20180131091500
-      EOBT: 20180131091500
+      ETOD: '20180131091500'
+      EOBT: '20180131091500'
       ETDU: ''
       EOBN: ''
-      ETDA: 20180131091500
+      ETDA: '20180131091500'
       ETDE: ''
       PSTD: ''
       PDBS: ''
@@ -10855,7 +10855,7 @@ definitions:
       AIRA: ''
       FTYP: S
       EETT: ''
-      STEV: 3
+      STEV: '3'
       CONC: ''
       HTYP: CO
       JCNT: ''
@@ -10864,7 +10864,7 @@ definitions:
       TTYP: PS
       TOBT: ''
       TPAX: ''
-      WCHR: 0
+      WCHR: '0'
       FPAH: ''
       FPAC: ''
       FPOB: ''
@@ -11319,7 +11319,7 @@ definitions:
   GetProduct:
     title: GetProduct
     example:
-      id: 129575
+      id: '129575'
       name: Turkish Ribbed Bath Towels, 100% Cotton
       short_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
       long_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
@@ -11331,19 +11331,19 @@ definitions:
       vendor: ''
       reviews: ''
       rating: ''
-      overall_rating: 4.3300000000000001
+      overall_rating: 4.33
       skus:
       - name: Turkish Ribbed Bath Towels, 100% Cotton
-        product_id: 129575
+        product_id: '129575'
         sku_id: S129575
         sku_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
         inventory_type: CONTINUE_SHOPPING
         available_quantity: 10
         barcode: ''
-        price: 29.989999999999998
+        price: 29.99
         currency: ''
         discount: 0.13
-        total_price: 29.989999999999998
+        total_price: 29.99
         attributes: ''
         image:
         - http://s7d9.scene7.com/is/image/BedBathandBeyond/262528129575c?qlt=85,1&op_sharpen=1&resMode=bilin&id=0I3TR2&hei=1198&wid=1198&fmt=png-alpha
@@ -11400,16 +11400,16 @@ definitions:
     title: Sku
     example:
       name: Turkish Ribbed Bath Towels, 100% Cotton
-      product_id: 129575
+      product_id: '129575'
       sku_id: S129575
       sku_description: A great addition to any bathroom, towels feel extremely soft against your skin. They're also absorbent and durable for years of use.
       inventory_type: CONTINUE_SHOPPING
       available_quantity: 10
       barcode: ''
-      price: 29.989999999999998
+      price: 29.99
       currency: ''
       discount: 0.13
-      total_price: 29.989999999999998
+      total_price: 29.99
       attributes: ''
       image:
       - http://s7d9.scene7.com/is/image/BedBathandBeyond/262528129575c?qlt=85,1&op_sharpen=1&resMode=bilin&id=0I3TR2&hei=1198&wid=1198&fmt=png-alpha
@@ -11486,7 +11486,7 @@ definitions:
                 flight:
                   URNO: 1644859001
                   ADID: D
-                  SIBT: NULL
+                  SIBT: 'NULL'
                   SOBT: 20160415214000
                   FLNO: BA 106
                   CSGN: BAW106
@@ -11495,14 +11495,14 @@ definitions:
                   ACT5: B744
                   ALC2: BA
                   ALC3: BAW
-                  FLNS: NULL
+                  FLNS: 'NULL'
                   REGN: GCIVS
                   RKEY: 1644859000
                   ETOA: 20160416043800
                   EIBT: 20160416045900
-                  ETAU: NULL
-                  EIBN: NULL
-                  ETAA: NULL
+                  ETAU: 'NULL'
+                  EIBN: 'NULL'
+                  ETAA: 'NULL'
                   ETAE: 20160416045900
                   DES3: LHR
                   DES4: EGLL
@@ -11510,96 +11510,96 @@ definitions:
                   ORG4: OMDB
                   REMP: DEP
                   VIAN: 0
-                  VIAL: NULL
-                  ELDT: NULL
-                  TMOA: NULL
-                  RWYA: NULL
-                  ALDT: NULL
-                  LNDA: NULL
-                  LNDU: NULL
-                  LNDD: NULL
-                  PSTA: NULL
-                  PABS: NULL
-                  PAES: NULL
-                  PABA: NULL
-                  PAEA: NULL
-                  GTA1: NULL
-                  GTA2: NULL
-                  GA1B: NULL
-                  GA1E: NULL
-                  GA1X: NULL
-                  GA1Y: NULL
-                  GA2B: NULL
-                  GA2E: NULL
-                  GA2X: NULL
-                  GA2Y: NULL
-                  BLT1: NULL
-                  BLT2: NULL
-                  B1BS: NULL
-                  B1ES: NULL
-                  B1BA: NULL
-                  B1EA: NULL
-                  B2BS: NULL
-                  B2ES: NULL
-                  B2BA: NULL
-                  B2EA: NULL
-                  BAZ1: NULL
-                  BAO1: NULL
-                  BAC1: NULL
-                  BAS1: NULL
-                  BAE1: NULL
-                  AIBT: NULL
-                  ONBU: NULL
-                  ONBD: NULL
+                  VIAL: 'NULL'
+                  ELDT: 'NULL'
+                  TMOA: 'NULL'
+                  RWYA: 'NULL'
+                  ALDT: 'NULL'
+                  LNDA: 'NULL'
+                  LNDU: 'NULL'
+                  LNDD: 'NULL'
+                  PSTA: 'NULL'
+                  PABS: 'NULL'
+                  PAES: 'NULL'
+                  PABA: 'NULL'
+                  PAEA: 'NULL'
+                  GTA1: 'NULL'
+                  GTA2: 'NULL'
+                  GA1B: 'NULL'
+                  GA1E: 'NULL'
+                  GA1X: 'NULL'
+                  GA1Y: 'NULL'
+                  GA2B: 'NULL'
+                  GA2E: 'NULL'
+                  GA2X: 'NULL'
+                  GA2Y: 'NULL'
+                  BLT1: 'NULL'
+                  BLT2: 'NULL'
+                  B1BS: 'NULL'
+                  B1ES: 'NULL'
+                  B1BA: 'NULL'
+                  B1EA: 'NULL'
+                  B2BS: 'NULL'
+                  B2ES: 'NULL'
+                  B2BA: 'NULL'
+                  B2EA: 'NULL'
+                  BAZ1: 'NULL'
+                  BAO1: 'NULL'
+                  BAC1: 'NULL'
+                  BAS1: 'NULL'
+                  BAE1: 'NULL'
+                  AIBT: 'NULL'
+                  ONBU: 'NULL'
+                  ONBD: 'NULL'
                   ETOD: 20160415214000
                   EOBT: 20160415214000
-                  ETDU: NULL
-                  EOBN: NULL
+                  ETDU: 'NULL'
+                  EOBN: 'NULL'
                   ETDA: 20160415214000
                   ETDE: 20160415214000
                   PSTD: C49
                   PDBS: 20160415202015
                   PDES: 20160415214000
-                  PDBA: NULL
-                  PDEA: NULL
+                  PDBA: 'NULL'
+                  PDEA: 'NULL'
                   GTD1: D2
-                  GTD2: NULL
-                  GD1B: NULL
-                  GD1E: NULL
+                  GTD2: 'NULL'
+                  GD1B: 'NULL'
+                  GD1E: 'NULL'
                   GD1X: 20160415201201
                   GD1Y: 20160415212801
-                  GD2B: NULL
-                  GD2E: NULL
-                  GD2X: NULL
-                  GD2Y: NULL
+                  GD2B: 'NULL'
+                  GD2E: 'NULL'
+                  GD2X: 'NULL'
+                  GD2Y: 'NULL'
                   BOAC: 20160415212801
-                  FCAL: NULL
+                  FCAL: 'NULL'
                   BOAO: 20160415205424
                   ETDC: 20160415213733
-                  ETOU: NULL
-                  ETTA: NULL
-                  ETTE: NULL
+                  ETOU: 'NULL'
+                  ETTA: 'NULL'
+                  ETTE: 'NULL'
                   AOBT: 20160415214026
-                  OFBU: NULL
+                  OFBU: 'NULL'
                   OFBD: 20160415214026
-                  OFBS: NULL
+                  OFBS: 'NULL'
                   RWYD: 30L
                   ATOT: 20160415220716
-                  AIRU: NULL
+                  AIRU: 'NULL'
                   AIRD: 20160415220716
                   AIRA: 20160415220752
                   FTYP: O
-                  EETT: NULL
+                  EETT: 'NULL'
                   STEV: 1
-                  CONC: NULL
+                  CONC: 'NULL'
                   HTYP: SC
                   JCNT: 3
                   JFNO: AA 6416  IB 7629  EI 8806
                   STYP: J
                   TTYP: PS
-                  CKIF: NULL
-                  CKIT: NULL
-                  CICR: NULL
+                  CKIF: 'NULL'
+                  CKIT: 'NULL'
+                  CICR: 'NULL'
     type: object
     properties:
       Envelope:
@@ -11616,7 +11616,7 @@ definitions:
               flight:
                 URNO: 1644859001
                 ADID: D
-                SIBT: NULL
+                SIBT: 'NULL'
                 SOBT: 20160415214000
                 FLNO: BA 106
                 CSGN: BAW106
@@ -11625,14 +11625,14 @@ definitions:
                 ACT5: B744
                 ALC2: BA
                 ALC3: BAW
-                FLNS: NULL
+                FLNS: 'NULL'
                 REGN: GCIVS
                 RKEY: 1644859000
                 ETOA: 20160416043800
                 EIBT: 20160416045900
-                ETAU: NULL
-                EIBN: NULL
-                ETAA: NULL
+                ETAU: 'NULL'
+                EIBN: 'NULL'
+                ETAA: 'NULL'
                 ETAE: 20160416045900
                 DES3: LHR
                 DES4: EGLL
@@ -11640,96 +11640,96 @@ definitions:
                 ORG4: OMDB
                 REMP: DEP
                 VIAN: 0
-                VIAL: NULL
-                ELDT: NULL
-                TMOA: NULL
-                RWYA: NULL
-                ALDT: NULL
-                LNDA: NULL
-                LNDU: NULL
-                LNDD: NULL
-                PSTA: NULL
-                PABS: NULL
-                PAES: NULL
-                PABA: NULL
-                PAEA: NULL
-                GTA1: NULL
-                GTA2: NULL
-                GA1B: NULL
-                GA1E: NULL
-                GA1X: NULL
-                GA1Y: NULL
-                GA2B: NULL
-                GA2E: NULL
-                GA2X: NULL
-                GA2Y: NULL
-                BLT1: NULL
-                BLT2: NULL
-                B1BS: NULL
-                B1ES: NULL
-                B1BA: NULL
-                B1EA: NULL
-                B2BS: NULL
-                B2ES: NULL
-                B2BA: NULL
-                B2EA: NULL
-                BAZ1: NULL
-                BAO1: NULL
-                BAC1: NULL
-                BAS1: NULL
-                BAE1: NULL
-                AIBT: NULL
-                ONBU: NULL
-                ONBD: NULL
+                VIAL: 'NULL'
+                ELDT: 'NULL'
+                TMOA: 'NULL'
+                RWYA: 'NULL'
+                ALDT: 'NULL'
+                LNDA: 'NULL'
+                LNDU: 'NULL'
+                LNDD: 'NULL'
+                PSTA: 'NULL'
+                PABS: 'NULL'
+                PAES: 'NULL'
+                PABA: 'NULL'
+                PAEA: 'NULL'
+                GTA1: 'NULL'
+                GTA2: 'NULL'
+                GA1B: 'NULL'
+                GA1E: 'NULL'
+                GA1X: 'NULL'
+                GA1Y: 'NULL'
+                GA2B: 'NULL'
+                GA2E: 'NULL'
+                GA2X: 'NULL'
+                GA2Y: 'NULL'
+                BLT1: 'NULL'
+                BLT2: 'NULL'
+                B1BS: 'NULL'
+                B1ES: 'NULL'
+                B1BA: 'NULL'
+                B1EA: 'NULL'
+                B2BS: 'NULL'
+                B2ES: 'NULL'
+                B2BA: 'NULL'
+                B2EA: 'NULL'
+                BAZ1: 'NULL'
+                BAO1: 'NULL'
+                BAC1: 'NULL'
+                BAS1: 'NULL'
+                BAE1: 'NULL'
+                AIBT: 'NULL'
+                ONBU: 'NULL'
+                ONBD: 'NULL'
                 ETOD: 20160415214000
                 EOBT: 20160415214000
-                ETDU: NULL
-                EOBN: NULL
+                ETDU: 'NULL'
+                EOBN: 'NULL'
                 ETDA: 20160415214000
                 ETDE: 20160415214000
                 PSTD: C49
                 PDBS: 20160415202015
                 PDES: 20160415214000
-                PDBA: NULL
-                PDEA: NULL
+                PDBA: 'NULL'
+                PDEA: 'NULL'
                 GTD1: D2
-                GTD2: NULL
-                GD1B: NULL
-                GD1E: NULL
+                GTD2: 'NULL'
+                GD1B: 'NULL'
+                GD1E: 'NULL'
                 GD1X: 20160415201201
                 GD1Y: 20160415212801
-                GD2B: NULL
-                GD2E: NULL
-                GD2X: NULL
-                GD2Y: NULL
+                GD2B: 'NULL'
+                GD2E: 'NULL'
+                GD2X: 'NULL'
+                GD2Y: 'NULL'
                 BOAC: 20160415212801
-                FCAL: NULL
+                FCAL: 'NULL'
                 BOAO: 20160415205424
                 ETDC: 20160415213733
-                ETOU: NULL
-                ETTA: NULL
-                ETTE: NULL
+                ETOU: 'NULL'
+                ETTA: 'NULL'
+                ETTE: 'NULL'
                 AOBT: 20160415214026
-                OFBU: NULL
+                OFBU: 'NULL'
                 OFBD: 20160415214026
-                OFBS: NULL
+                OFBS: 'NULL'
                 RWYD: 30L
                 ATOT: 20160415220716
-                AIRU: NULL
+                AIRU: 'NULL'
                 AIRD: 20160415220716
                 AIRA: 20160415220752
                 FTYP: O
-                EETT: NULL
+                EETT: 'NULL'
                 STEV: 1
-                CONC: NULL
+                CONC: 'NULL'
                 HTYP: SC
                 JCNT: 3
                 JFNO: AA 6416  IB 7629  EI 8806
                 STYP: J
                 TTYP: PS
-                CKIF: NULL
-                CKIT: NULL
-                CICR: NULL
+                CKIF: 'NULL'
+                CKIT: 'NULL'
+                CICR: 'NULL'
     type: object
     properties:
       Body:
@@ -11745,7 +11745,7 @@ definitions:
             flight:
               URNO: 1644859001
               ADID: D
-              SIBT: NULL
+              SIBT: 'NULL'
               SOBT: 20160415214000
               FLNO: BA 106
               CSGN: BAW106
@@ -11754,14 +11754,14 @@ definitions:
               ACT5: B744
               ALC2: BA
               ALC3: BAW
-              FLNS: NULL
+              FLNS: 'NULL'
               REGN: GCIVS
               RKEY: 1644859000
               ETOA: 20160416043800
               EIBT: 20160416045900
-              ETAU: NULL
-              EIBN: NULL
-              ETAA: NULL
+              ETAU: 'NULL'
+              EIBN: 'NULL'
+              ETAA: 'NULL'
               ETAE: 20160416045900
               DES3: LHR
               DES4: EGLL
@@ -11769,96 +11769,96 @@ definitions:
               ORG4: OMDB
               REMP: DEP
               VIAN: 0
-              VIAL: NULL
-              ELDT: NULL
-              TMOA: NULL
-              RWYA: NULL
-              ALDT: NULL
-              LNDA: NULL
-              LNDU: NULL
-              LNDD: NULL
-              PSTA: NULL
-              PABS: NULL
-              PAES: NULL
-              PABA: NULL
-              PAEA: NULL
-              GTA1: NULL
-              GTA2: NULL
-              GA1B: NULL
-              GA1E: NULL
-              GA1X: NULL
-              GA1Y: NULL
-              GA2B: NULL
-              GA2E: NULL
-              GA2X: NULL
-              GA2Y: NULL
-              BLT1: NULL
-              BLT2: NULL
-              B1BS: NULL
-              B1ES: NULL
-              B1BA: NULL
-              B1EA: NULL
-              B2BS: NULL
-              B2ES: NULL
-              B2BA: NULL
-              B2EA: NULL
-              BAZ1: NULL
-              BAO1: NULL
-              BAC1: NULL
-              BAS1: NULL
-              BAE1: NULL
-              AIBT: NULL
-              ONBU: NULL
-              ONBD: NULL
+              VIAL: 'NULL'
+              ELDT: 'NULL'
+              TMOA: 'NULL'
+              RWYA: 'NULL'
+              ALDT: 'NULL'
+              LNDA: 'NULL'
+              LNDU: 'NULL'
+              LNDD: 'NULL'
+              PSTA: 'NULL'
+              PABS: 'NULL'
+              PAES: 'NULL'
+              PABA: 'NULL'
+              PAEA: 'NULL'
+              GTA1: 'NULL'
+              GTA2: 'NULL'
+              GA1B: 'NULL'
+              GA1E: 'NULL'
+              GA1X: 'NULL'
+              GA1Y: 'NULL'
+              GA2B: 'NULL'
+              GA2E: 'NULL'
+              GA2X: 'NULL'
+              GA2Y: 'NULL'
+              BLT1: 'NULL'
+              BLT2: 'NULL'
+              B1BS: 'NULL'
+              B1ES: 'NULL'
+              B1BA: 'NULL'
+              B1EA: 'NULL'
+              B2BS: 'NULL'
+              B2ES: 'NULL'
+              B2BA: 'NULL'
+              B2EA: 'NULL'
+              BAZ1: 'NULL'
+              BAO1: 'NULL'
+              BAC1: 'NULL'
+              BAS1: 'NULL'
+              BAE1: 'NULL'
+              AIBT: 'NULL'
+              ONBU: 'NULL'
+              ONBD: 'NULL'
               ETOD: 20160415214000
               EOBT: 20160415214000
-              ETDU: NULL
-              EOBN: NULL
+              ETDU: 'NULL'
+              EOBN: 'NULL'
               ETDA: 20160415214000
               ETDE: 20160415214000
               PSTD: C49
               PDBS: 20160415202015
               PDES: 20160415214000
-              PDBA: NULL
-              PDEA: NULL
+              PDBA: 'NULL'
+              PDEA: 'NULL'
               GTD1: D2
-              GTD2: NULL
-              GD1B: NULL
-              GD1E: NULL
+              GTD2: 'NULL'
+              GD1B: 'NULL'
+              GD1E: 'NULL'
               GD1X: 20160415201201
               GD1Y: 20160415212801
-              GD2B: NULL
-              GD2E: NULL
-              GD2X: NULL
-              GD2Y: NULL
+              GD2B: 'NULL'
+              GD2E: 'NULL'
+              GD2X: 'NULL'
+              GD2Y: 'NULL'
               BOAC: 20160415212801
-              FCAL: NULL
+              FCAL: 'NULL'
               BOAO: 20160415205424
               ETDC: 20160415213733
-              ETOU: NULL
-              ETTA: NULL
-              ETTE: NULL
+              ETOU: 'NULL'
+              ETTA: 'NULL'
+              ETTE: 'NULL'
               AOBT: 20160415214026
-              OFBU: NULL
+              OFBU: 'NULL'
               OFBD: 20160415214026
-              OFBS: NULL
+              OFBS: 'NULL'
               RWYD: 30L
               ATOT: 20160415220716
-              AIRU: NULL
+              AIRU: 'NULL'
               AIRD: 20160415220716
               AIRA: 20160415220752
               FTYP: O
-              EETT: NULL
+              EETT: 'NULL'
               STEV: 1
-              CONC: NULL
+              CONC: 'NULL'
               HTYP: SC
               JCNT: 3
               JFNO: AA 6416  IB 7629  EI 8806
               STYP: J
               TTYP: PS
-              CKIF: NULL
-              CKIT: NULL
-              CICR: NULL
+              CKIF: 'NULL'
+              CKIT: 'NULL'
+              CICR: 'NULL'
     type: object
     properties:
       GetFlightInfoResponse:
@@ -11873,7 +11873,7 @@ definitions:
           flight:
             URNO: 1644859001
             ADID: D
-            SIBT: NULL
+            SIBT: 'NULL'
             SOBT: 20160415214000
             FLNO: BA 106
             CSGN: BAW106
@@ -11882,14 +11882,14 @@ definitions:
             ACT5: B744
             ALC2: BA
             ALC3: BAW
-            FLNS: NULL
+            FLNS: 'NULL'
             REGN: GCIVS
             RKEY: 1644859000
             ETOA: 20160416043800
             EIBT: 20160416045900
-            ETAU: NULL
-            EIBN: NULL
-            ETAA: NULL
+            ETAU: 'NULL'
+            EIBN: 'NULL'
+            ETAA: 'NULL'
             ETAE: 20160416045900
             DES3: LHR
             DES4: EGLL
@@ -11897,96 +11897,96 @@ definitions:
             ORG4: OMDB
             REMP: DEP
             VIAN: 0
-            VIAL: NULL
-            ELDT: NULL
-            TMOA: NULL
-            RWYA: NULL
-            ALDT: NULL
-            LNDA: NULL
-            LNDU: NULL
-            LNDD: NULL
-            PSTA: NULL
-            PABS: NULL
-            PAES: NULL
-            PABA: NULL
-            PAEA: NULL
-            GTA1: NULL
-            GTA2: NULL
-            GA1B: NULL
-            GA1E: NULL
-            GA1X: NULL
-            GA1Y: NULL
-            GA2B: NULL
-            GA2E: NULL
-            GA2X: NULL
-            GA2Y: NULL
-            BLT1: NULL
-            BLT2: NULL
-            B1BS: NULL
-            B1ES: NULL
-            B1BA: NULL
-            B1EA: NULL
-            B2BS: NULL
-            B2ES: NULL
-            B2BA: NULL
-            B2EA: NULL
-            BAZ1: NULL
-            BAO1: NULL
-            BAC1: NULL
-            BAS1: NULL
-            BAE1: NULL
-            AIBT: NULL
-            ONBU: NULL
-            ONBD: NULL
+            VIAL: 'NULL'
+            ELDT: 'NULL'
+            TMOA: 'NULL'
+            RWYA: 'NULL'
+            ALDT: 'NULL'
+            LNDA: 'NULL'
+            LNDU: 'NULL'
+            LNDD: 'NULL'
+            PSTA: 'NULL'
+            PABS: 'NULL'
+            PAES: 'NULL'
+            PABA: 'NULL'
+            PAEA: 'NULL'
+            GTA1: 'NULL'
+            GTA2: 'NULL'
+            GA1B: 'NULL'
+            GA1E: 'NULL'
+            GA1X: 'NULL'
+            GA1Y: 'NULL'
+            GA2B: 'NULL'
+            GA2E: 'NULL'
+            GA2X: 'NULL'
+            GA2Y: 'NULL'
+            BLT1: 'NULL'
+            BLT2: 'NULL'
+            B1BS: 'NULL'
+            B1ES: 'NULL'
+            B1BA: 'NULL'
+            B1EA: 'NULL'
+            B2BS: 'NULL'
+            B2ES: 'NULL'
+            B2BA: 'NULL'
+            B2EA: 'NULL'
+            BAZ1: 'NULL'
+            BAO1: 'NULL'
+            BAC1: 'NULL'
+            BAS1: 'NULL'
+            BAE1: 'NULL'
+            AIBT: 'NULL'
+            ONBU: 'NULL'
+            ONBD: 'NULL'
             ETOD: 20160415214000
             EOBT: 20160415214000
-            ETDU: NULL
-            EOBN: NULL
+            ETDU: 'NULL'
+            EOBN: 'NULL'
             ETDA: 20160415214000
             ETDE: 20160415214000
             PSTD: C49
             PDBS: 20160415202015
             PDES: 20160415214000
-            PDBA: NULL
-            PDEA: NULL
+            PDBA: 'NULL'
+            PDEA: 'NULL'
             GTD1: D2
-            GTD2: NULL
-            GD1B: NULL
-            GD1E: NULL
+            GTD2: 'NULL'
+            GD1B: 'NULL'
+            GD1E: 'NULL'
             GD1X: 20160415201201
             GD1Y: 20160415212801
-            GD2B: NULL
-            GD2E: NULL
-            GD2X: NULL
-            GD2Y: NULL
+            GD2B: 'NULL'
+            GD2E: 'NULL'
+            GD2X: 'NULL'
+            GD2Y: 'NULL'
             BOAC: 20160415212801
-            FCAL: NULL
+            FCAL: 'NULL'
             BOAO: 20160415205424
             ETDC: 20160415213733
-            ETOU: NULL
-            ETTA: NULL
-            ETTE: NULL
+            ETOU: 'NULL'
+            ETTA: 'NULL'
+            ETTE: 'NULL'
             AOBT: 20160415214026
-            OFBU: NULL
+            OFBU: 'NULL'
             OFBD: 20160415214026
-            OFBS: NULL
+            OFBS: 'NULL'
             RWYD: 30L
             ATOT: 20160415220716
-            AIRU: NULL
+            AIRU: 'NULL'
             AIRD: 20160415220716
             AIRA: 20160415220752
             FTYP: O
-            EETT: NULL
+            EETT: 'NULL'
             STEV: 1
-            CONC: NULL
+            CONC: 'NULL'
             HTYP: SC
             JCNT: 3
             JFNO: AA 6416  IB 7629  EI 8806
             STYP: J
             TTYP: PS
-            CKIF: NULL
-            CKIT: NULL
-            CICR: NULL
+            CKIF: 'NULL'
+            CKIT: 'NULL'
+            CICR: 'NULL'
     type: object
     properties:
       GetFlightInforesult:
@@ -12000,7 +12000,7 @@ definitions:
         flight:
           URNO: 1644859001
           ADID: D
-          SIBT: NULL
+          SIBT: 'NULL'
           SOBT: 20160415214000
           FLNO: BA 106
           CSGN: BAW106
@@ -12009,14 +12009,14 @@ definitions:
           ACT5: B744
           ALC2: BA
           ALC3: BAW
-          FLNS: NULL
+          FLNS: 'NULL'
           REGN: GCIVS
           RKEY: 1644859000
           ETOA: 20160416043800
           EIBT: 20160416045900
-          ETAU: NULL
-          EIBN: NULL
-          ETAA: NULL
+          ETAU: 'NULL'
+          EIBN: 'NULL'
+          ETAA: 'NULL'
           ETAE: 20160416045900
           DES3: LHR
           DES4: EGLL
@@ -12024,96 +12024,96 @@ definitions:
           ORG4: OMDB
           REMP: DEP
           VIAN: 0
-          VIAL: NULL
-          ELDT: NULL
-          TMOA: NULL
-          RWYA: NULL
-          ALDT: NULL
-          LNDA: NULL
-          LNDU: NULL
-          LNDD: NULL
-          PSTA: NULL
-          PABS: NULL
-          PAES: NULL
-          PABA: NULL
-          PAEA: NULL
-          GTA1: NULL
-          GTA2: NULL
-          GA1B: NULL
-          GA1E: NULL
-          GA1X: NULL
-          GA1Y: NULL
-          GA2B: NULL
-          GA2E: NULL
-          GA2X: NULL
-          GA2Y: NULL
-          BLT1: NULL
-          BLT2: NULL
-          B1BS: NULL
-          B1ES: NULL
-          B1BA: NULL
-          B1EA: NULL
-          B2BS: NULL
-          B2ES: NULL
-          B2BA: NULL
-          B2EA: NULL
-          BAZ1: NULL
-          BAO1: NULL
-          BAC1: NULL
-          BAS1: NULL
-          BAE1: NULL
-          AIBT: NULL
-          ONBU: NULL
-          ONBD: NULL
+          VIAL: 'NULL'
+          ELDT: 'NULL'
+          TMOA: 'NULL'
+          RWYA: 'NULL'
+          ALDT: 'NULL'
+          LNDA: 'NULL'
+          LNDU: 'NULL'
+          LNDD: 'NULL'
+          PSTA: 'NULL'
+          PABS: 'NULL'
+          PAES: 'NULL'
+          PABA: 'NULL'
+          PAEA: 'NULL'
+          GTA1: 'NULL'
+          GTA2: 'NULL'
+          GA1B: 'NULL'
+          GA1E: 'NULL'
+          GA1X: 'NULL'
+          GA1Y: 'NULL'
+          GA2B: 'NULL'
+          GA2E: 'NULL'
+          GA2X: 'NULL'
+          GA2Y: 'NULL'
+          BLT1: 'NULL'
+          BLT2: 'NULL'
+          B1BS: 'NULL'
+          B1ES: 'NULL'
+          B1BA: 'NULL'
+          B1EA: 'NULL'
+          B2BS: 'NULL'
+          B2ES: 'NULL'
+          B2BA: 'NULL'
+          B2EA: 'NULL'
+          BAZ1: 'NULL'
+          BAO1: 'NULL'
+          BAC1: 'NULL'
+          BAS1: 'NULL'
+          BAE1: 'NULL'
+          AIBT: 'NULL'
+          ONBU: 'NULL'
+          ONBD: 'NULL'
           ETOD: 20160415214000
           EOBT: 20160415214000
-          ETDU: NULL
-          EOBN: NULL
+          ETDU: 'NULL'
+          EOBN: 'NULL'
           ETDA: 20160415214000
           ETDE: 20160415214000
           PSTD: C49
           PDBS: 20160415202015
           PDES: 20160415214000
-          PDBA: NULL
-          PDEA: NULL
+          PDBA: 'NULL'
+          PDEA: 'NULL'
           GTD1: D2
-          GTD2: NULL
-          GD1B: NULL
-          GD1E: NULL
+          GTD2: 'NULL'
+          GD1B: 'NULL'
+          GD1E: 'NULL'
           GD1X: 20160415201201
           GD1Y: 20160415212801
-          GD2B: NULL
-          GD2E: NULL
-          GD2X: NULL
-          GD2Y: NULL
+          GD2B: 'NULL'
+          GD2E: 'NULL'
+          GD2X: 'NULL'
+          GD2Y: 'NULL'
           BOAC: 20160415212801
-          FCAL: NULL
+          FCAL: 'NULL'
           BOAO: 20160415205424
           ETDC: 20160415213733
-          ETOU: NULL
-          ETTA: NULL
-          ETTE: NULL
+          ETOU: 'NULL'
+          ETTA: 'NULL'
+          ETTE: 'NULL'
           AOBT: 20160415214026
-          OFBU: NULL
+          OFBU: 'NULL'
           OFBD: 20160415214026
-          OFBS: NULL
+          OFBS: 'NULL'
           RWYD: 30L
           ATOT: 20160415220716
-          AIRU: NULL
+          AIRU: 'NULL'
           AIRD: 20160415220716
           AIRA: 20160415220752
           FTYP: O
-          EETT: NULL
+          EETT: 'NULL'
           STEV: 1
-          CONC: NULL
+          CONC: 'NULL'
           HTYP: SC
           JCNT: 3
           JFNO: AA 6416  IB 7629  EI 8806
           STYP: J
           TTYP: PS
-          CKIF: NULL
-          CKIT: NULL
-          CICR: NULL
+          CKIF: 'NULL'
+          CKIT: 'NULL'
+          CICR: 'NULL'
     type: object
     properties:
       FlightInfoResponse:
@@ -12126,7 +12126,7 @@ definitions:
       flight:
         URNO: 1644859001
         ADID: D
-        SIBT: NULL
+        SIBT: 'NULL'
         SOBT: 20160415214000
         FLNO: BA 106
         CSGN: BAW106
@@ -12135,14 +12135,14 @@ definitions:
         ACT5: B744
         ALC2: BA
         ALC3: BAW
-        FLNS: NULL
+        FLNS: 'NULL'
         REGN: GCIVS
         RKEY: 1644859000
         ETOA: 20160416043800
         EIBT: 20160416045900
-        ETAU: NULL
-        EIBN: NULL
-        ETAA: NULL
+        ETAU: 'NULL'
+        EIBN: 'NULL'
+        ETAA: 'NULL'
         ETAE: 20160416045900
         DES3: LHR
         DES4: EGLL
@@ -12150,96 +12150,96 @@ definitions:
         ORG4: OMDB
         REMP: DEP
         VIAN: 0
-        VIAL: NULL
-        ELDT: NULL
-        TMOA: NULL
-        RWYA: NULL
-        ALDT: NULL
-        LNDA: NULL
-        LNDU: NULL
-        LNDD: NULL
-        PSTA: NULL
-        PABS: NULL
-        PAES: NULL
-        PABA: NULL
-        PAEA: NULL
-        GTA1: NULL
-        GTA2: NULL
-        GA1B: NULL
-        GA1E: NULL
-        GA1X: NULL
-        GA1Y: NULL
-        GA2B: NULL
-        GA2E: NULL
-        GA2X: NULL
-        GA2Y: NULL
-        BLT1: NULL
-        BLT2: NULL
-        B1BS: NULL
-        B1ES: NULL
-        B1BA: NULL
-        B1EA: NULL
-        B2BS: NULL
-        B2ES: NULL
-        B2BA: NULL
-        B2EA: NULL
-        BAZ1: NULL
-        BAO1: NULL
-        BAC1: NULL
-        BAS1: NULL
-        BAE1: NULL
-        AIBT: NULL
-        ONBU: NULL
-        ONBD: NULL
+        VIAL: 'NULL'
+        ELDT: 'NULL'
+        TMOA: 'NULL'
+        RWYA: 'NULL'
+        ALDT: 'NULL'
+        LNDA: 'NULL'
+        LNDU: 'NULL'
+        LNDD: 'NULL'
+        PSTA: 'NULL'
+        PABS: 'NULL'
+        PAES: 'NULL'
+        PABA: 'NULL'
+        PAEA: 'NULL'
+        GTA1: 'NULL'
+        GTA2: 'NULL'
+        GA1B: 'NULL'
+        GA1E: 'NULL'
+        GA1X: 'NULL'
+        GA1Y: 'NULL'
+        GA2B: 'NULL'
+        GA2E: 'NULL'
+        GA2X: 'NULL'
+        GA2Y: 'NULL'
+        BLT1: 'NULL'
+        BLT2: 'NULL'
+        B1BS: 'NULL'
+        B1ES: 'NULL'
+        B1BA: 'NULL'
+        B1EA: 'NULL'
+        B2BS: 'NULL'
+        B2ES: 'NULL'
+        B2BA: 'NULL'
+        B2EA: 'NULL'
+        BAZ1: 'NULL'
+        BAO1: 'NULL'
+        BAC1: 'NULL'
+        BAS1: 'NULL'
+        BAE1: 'NULL'
+        AIBT: 'NULL'
+        ONBU: 'NULL'
+        ONBD: 'NULL'
         ETOD: 20160415214000
         EOBT: 20160415214000
-        ETDU: NULL
-        EOBN: NULL
+        ETDU: 'NULL'
+        EOBN: 'NULL'
         ETDA: 20160415214000
         ETDE: 20160415214000
         PSTD: C49
         PDBS: 20160415202015
         PDES: 20160415214000
-        PDBA: NULL
-        PDEA: NULL
+        PDBA: 'NULL'
+        PDEA: 'NULL'
         GTD1: D2
-        GTD2: NULL
-        GD1B: NULL
-        GD1E: NULL
+        GTD2: 'NULL'
+        GD1B: 'NULL'
+        GD1E: 'NULL'
         GD1X: 20160415201201
         GD1Y: 20160415212801
-        GD2B: NULL
-        GD2E: NULL
-        GD2X: NULL
-        GD2Y: NULL
+        GD2B: 'NULL'
+        GD2E: 'NULL'
+        GD2X: 'NULL'
+        GD2Y: 'NULL'
         BOAC: 20160415212801
-        FCAL: NULL
+        FCAL: 'NULL'
         BOAO: 20160415205424
         ETDC: 20160415213733
-        ETOU: NULL
-        ETTA: NULL
-        ETTE: NULL
+        ETOU: 'NULL'
+        ETTA: 'NULL'
+        ETTE: 'NULL'
         AOBT: 20160415214026
-        OFBU: NULL
+        OFBU: 'NULL'
         OFBD: 20160415214026
-        OFBS: NULL
+        OFBS: 'NULL'
         RWYD: 30L
         ATOT: 20160415220716
-        AIRU: NULL
+        AIRU: 'NULL'
         AIRD: 20160415220716
         AIRA: 20160415220752
         FTYP: O
-        EETT: NULL
+        EETT: 'NULL'
         STEV: 1
-        CONC: NULL
+        CONC: 'NULL'
         HTYP: SC
         JCNT: 3
         JFNO: AA 6416  IB 7629  EI 8806
         STYP: J
         TTYP: PS
-        CKIF: NULL
-        CKIT: NULL
-        CICR: NULL
+        CKIF: 'NULL'
+        CKIT: 'NULL'
+        CICR: 'NULL'
     type: object
     properties:
       flight:
@@ -12251,7 +12251,7 @@ definitions:
     example:
       URNO: 1644859001
       ADID: D
-      SIBT: NULL
+      SIBT: 'NULL'
       SOBT: 20160415214000
       FLNO: BA 106
       CSGN: BAW106
@@ -12260,14 +12260,14 @@ definitions:
       ACT5: B744
       ALC2: BA
       ALC3: BAW
-      FLNS: NULL
+      FLNS: 'NULL'
       REGN: GCIVS
       RKEY: 1644859000
       ETOA: 20160416043800
       EIBT: 20160416045900
-      ETAU: NULL
-      EIBN: NULL
-      ETAA: NULL
+      ETAU: 'NULL'
+      EIBN: 'NULL'
+      ETAA: 'NULL'
       ETAE: 20160416045900
       DES3: LHR
       DES4: EGLL
@@ -12275,96 +12275,96 @@ definitions:
       ORG4: OMDB
       REMP: DEP
       VIAN: 0
-      VIAL: NULL
-      ELDT: NULL
-      TMOA: NULL
-      RWYA: NULL
-      ALDT: NULL
-      LNDA: NULL
-      LNDU: NULL
-      LNDD: NULL
-      PSTA: NULL
-      PABS: NULL
-      PAES: NULL
-      PABA: NULL
-      PAEA: NULL
-      GTA1: NULL
-      GTA2: NULL
-      GA1B: NULL
-      GA1E: NULL
-      GA1X: NULL
-      GA1Y: NULL
-      GA2B: NULL
-      GA2E: NULL
-      GA2X: NULL
-      GA2Y: NULL
-      BLT1: NULL
-      BLT2: NULL
-      B1BS: NULL
-      B1ES: NULL
-      B1BA: NULL
-      B1EA: NULL
-      B2BS: NULL
-      B2ES: NULL
-      B2BA: NULL
-      B2EA: NULL
-      BAZ1: NULL
-      BAO1: NULL
-      BAC1: NULL
-      BAS1: NULL
-      BAE1: NULL
-      AIBT: NULL
-      ONBU: NULL
-      ONBD: NULL
+      VIAL: 'NULL'
+      ELDT: 'NULL'
+      TMOA: 'NULL'
+      RWYA: 'NULL'
+      ALDT: 'NULL'
+      LNDA: 'NULL'
+      LNDU: 'NULL'
+      LNDD: 'NULL'
+      PSTA: 'NULL'
+      PABS: 'NULL'
+      PAES: 'NULL'
+      PABA: 'NULL'
+      PAEA: 'NULL'
+      GTA1: 'NULL'
+      GTA2: 'NULL'
+      GA1B: 'NULL'
+      GA1E: 'NULL'
+      GA1X: 'NULL'
+      GA1Y: 'NULL'
+      GA2B: 'NULL'
+      GA2E: 'NULL'
+      GA2X: 'NULL'
+      GA2Y: 'NULL'
+      BLT1: 'NULL'
+      BLT2: 'NULL'
+      B1BS: 'NULL'
+      B1ES: 'NULL'
+      B1BA: 'NULL'
+      B1EA: 'NULL'
+      B2BS: 'NULL'
+      B2ES: 'NULL'
+      B2BA: 'NULL'
+      B2EA: 'NULL'
+      BAZ1: 'NULL'
+      BAO1: 'NULL'
+      BAC1: 'NULL'
+      BAS1: 'NULL'
+      BAE1: 'NULL'
+      AIBT: 'NULL'
+      ONBU: 'NULL'
+      ONBD: 'NULL'
       ETOD: 20160415214000
       EOBT: 20160415214000
-      ETDU: NULL
-      EOBN: NULL
+      ETDU: 'NULL'
+      EOBN: 'NULL'
       ETDA: 20160415214000
       ETDE: 20160415214000
       PSTD: C49
       PDBS: 20160415202015
       PDES: 20160415214000
-      PDBA: NULL
-      PDEA: NULL
+      PDBA: 'NULL'
+      PDEA: 'NULL'
       GTD1: D2
-      GTD2: NULL
-      GD1B: NULL
-      GD1E: NULL
+      GTD2: 'NULL'
+      GD1B: 'NULL'
+      GD1E: 'NULL'
       GD1X: 20160415201201
       GD1Y: 20160415212801
-      GD2B: NULL
-      GD2E: NULL
-      GD2X: NULL
-      GD2Y: NULL
+      GD2B: 'NULL'
+      GD2E: 'NULL'
+      GD2X: 'NULL'
+      GD2Y: 'NULL'
       BOAC: 20160415212801
-      FCAL: NULL
+      FCAL: 'NULL'
       BOAO: 20160415205424
       ETDC: 20160415213733
-      ETOU: NULL
-      ETTA: NULL
-      ETTE: NULL
+      ETOU: 'NULL'
+      ETTA: 'NULL'
+      ETTE: 'NULL'
       AOBT: 20160415214026
-      OFBU: NULL
+      OFBU: 'NULL'
       OFBD: 20160415214026
-      OFBS: NULL
+      OFBS: 'NULL'
       RWYD: 30L
       ATOT: 20160415220716
-      AIRU: NULL
+      AIRU: 'NULL'
       AIRD: 20160415220716
       AIRA: 20160415220752
       FTYP: O
-      EETT: NULL
+      EETT: 'NULL'
       STEV: 1
-      CONC: NULL
+      CONC: 'NULL'
       HTYP: SC
       JCNT: 3
       JFNO: AA 6416  IB 7629  EI 8806
       STYP: J
       TTYP: PS
-      CKIF: NULL
-      CKIT: NULL
-      CICR: NULL
+      CKIF: 'NULL'
+      CKIT: 'NULL'
+      CICR: 'NULL'
     type: object
     properties:
       URNO:
@@ -12749,14 +12749,14 @@ definitions:
       name: test11
       username: ''
       bill_to:
-        zip: 420420
+        zip: '420420'
         country: australia
         address2: street2
         city: bangalore
         address1: green glen layout
         locality: bellandur
         name: home
-        phone_number: 9876563542
+        phone_number: '9876563542'
         state: karnataka
         email: 420@420.420
       cart_id: cart_001
