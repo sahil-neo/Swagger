@@ -30,7 +30,7 @@ paths:
         default: Bearer {token}
         type: string
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/GetCart'
@@ -102,7 +102,7 @@ paths:
         default: Bearer {token}
         type: string
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/GetCategories'
@@ -215,7 +215,7 @@ paths:
         type: string
         description: ''
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/GetProducts'
@@ -372,7 +372,7 @@ paths:
         schema:
           $ref: '#/definitions/UpdateCartRequest'
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/UpdateCart'
@@ -426,7 +426,7 @@ paths:
         schema:
           $ref: '#/definitions/AddCartItemsRequest'
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/AddCartItems'
@@ -487,7 +487,7 @@ paths:
         schema:
           $ref: '#/definitions/CreateCartRequest'
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/CreateCart'
@@ -556,7 +556,7 @@ paths:
         type: string
         description: ''
       responses:
-        200:
+        '200':
           description: ''
           headers: {}
   /apis/v1/orders/a7a52a4b-2fd8-11e7-990c-0eec2415f3df:
@@ -575,7 +575,7 @@ paths:
         default: Bearer {token}
         type: string
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/GetOrder'
@@ -637,7 +637,7 @@ paths:
         default: Bearer {token}
         type: string
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/GetOrders'
@@ -787,7 +787,7 @@ paths:
         schema:
           $ref: '#/definitions/PostOrdersRequest'
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/PostOrders'
@@ -858,7 +858,7 @@ paths:
         type: string
         description: ''
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/GetFlightManagement'
@@ -3014,7 +3014,7 @@ paths:
         default: Bearer {token}
         type: string
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/GetProduct'
@@ -3097,7 +3097,7 @@ paths:
         type: string
         description: ''
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/FlightInfo'
@@ -3270,7 +3270,7 @@ paths:
         schema:
           $ref: '#/definitions/FlightMonitorTokenRequest'
       responses:
-        200:
+        '200':
           description: OK
           schema:
             $ref: '#/definitions/FlightMonitorToken'
@@ -3317,7 +3317,7 @@ paths:
         default: Bearer {token}
         type: string
       responses:
-        200:
+        '200':
           description: ''
           headers: {}
 definitions:
