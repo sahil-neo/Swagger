@@ -362,7 +362,9 @@ paths:
         type: string
       - name: Content-Type
         in: header
-        required: true
+        required: false
+        enum:
+        - application/json
         type: string
         description: ''
       - name: Body
@@ -477,7 +479,9 @@ paths:
         type: string
       - name: Content-Type
         in: header
-        required: true
+        required: false
+        enum:
+        - application/json
         type: string
         description: ''
       - name: Body
@@ -3260,7 +3264,9 @@ paths:
         type: string
       - name: Content-Type
         in: header
-        required: true
+        required: false
+        enum:
+        - application/json
         type: string
         description: ''
       - name: Body
